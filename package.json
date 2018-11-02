@@ -1,0 +1,32 @@
+{
+  "name": "automata",
+  "version": "1.0.0",
+  "description": "first try",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync src -w",
+    "lint": "stylelint src/css/*.css",
+    "prefix": "postcss src/css/*.css --use autoprefixer -d build/css",
+    "minify": "postcss src/css/*.css --use cssnano -d build/css",
+    "css": "postcss src/css/*.css --use autoprefixer --use cssnano -d build/css",
+    "clean": "rimraf build && mkdir build",
+    "html": "html-minifier --input-dir src --output-dir build --collapse-whitespace --file-ext html",
+    "img": "imagemin src/img/* -o=build/img",
+    "prebuild": "npm run lint",
+    "build": "npm run clean && npm run img && npm run css && npm run html"
+  },
+  "author": "Alex_OD <balik@te.net.ua>",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.3.1",
+    "browser-sync": "^2.26.3",
+    "cpx": "^1.5.0",
+    "cssnano": "^4.1.7",
+    "html-minifier": "^3.5.21",
+    "imagemin-cli": "^3.0.0",
+    "postcss-cli": "^6.0.1",
+    "rimraf": "^2.6.2",
+    "stylelint": "^9.7.0",
+    "stylelint-config-standard": "^18.2.0"
+  }
+}
