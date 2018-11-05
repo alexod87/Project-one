@@ -11,9 +11,10 @@
     "css": "postcss src/css/*.css --use autoprefixer --use cssnano -d build/css",
     "clean": "rimraf build && mkdir build",
     "html": "html-minifier --input-dir src --output-dir build --collapse-whitespace --file-ext html",
+    "fonts": "cpx src/fonts/*.* build/fonts/",
     "img": "imagemin src/img/* -o=build/img",
     "prebuild": "npm run lint",
-    "build": "npm run clean && npm run img && npm run css && npm run html"
+    "build": "npm run clean && npm run img && npm run css && npm run html && npm run fonts"
   },
   "author": "Alex_OD <balik@te.net.ua>",
   "license": "ISC",
