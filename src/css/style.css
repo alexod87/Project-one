@@ -16,8 +16,8 @@ img {
 }
 
 .visually-hidden:not(:focus):not(:active),
-input[type='checkbox'].visually-hidden,
-input[type='radio'].visually-hidden {
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -28,11 +28,6 @@ input[type='radio'].visually-hidden {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.wrapper {
-  width: 750px;
-  margin: 0 auto;
 }
 
 .container {
@@ -83,14 +78,14 @@ input[type='radio'].visually-hidden {
 }
 
 .title-h2::before {
-  display:block; 
-  content:""; 
-  position: absolute; 
-  top:50%; 
-  left:50%; 
-  transform: translate(-50%,-50%); 
-  height: 1px; 
-  width: 65%; 
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 1px;
+  width: 65%;
   background-color: #000002;
 }
 
