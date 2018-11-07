@@ -30,6 +30,11 @@ input[type='radio'].visually-hidden {
   overflow: hidden;
 }
 
+.wrapper {
+  width: 750px;
+  margin: 0 auto;
+}
+
 .container {
   width: 650px;
   margin: 0 auto;
@@ -64,8 +69,34 @@ input[type='radio'].visually-hidden {
   text-align: center;
 }
 
+.discography-title {
+  color: #896850;
+}
+
 .title-h2 {
   text-align: center;
+  position: relative;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: "Dosis", sans-serif;
+  font-weight: normal;
+}
+
+.title-h2::before {
+  display:block; 
+  content:""; 
+  position: absolute; 
+  top:50%; 
+  left:50%; 
+  transform: translate(-50%,-50%); 
+  height: 1px; 
+  width: 65%; 
+  background-color: #000002;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
 }
 
 .year::after {
