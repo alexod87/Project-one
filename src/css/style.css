@@ -32,6 +32,7 @@ input[type='radio'].visually-hidden {
 
 .container {
   width: 650px;
+  margin: 0 auto;
 }
 
 /* HEADER */
@@ -61,4 +62,21 @@ input[type='radio'].visually-hidden {
   text-transform: uppercase;
   line-height: 3.487;
   text-align: center;
+}
+
+.title-h2 {
+  text-align: center;
+}
+
+.year::after {
+  display: block;
+  content: "";
+  height: 1px;
+  width: 649px;
+  margin-top: 12px;
+  background-color: #000002;
+}
+
+.play {
+  margin: 0 auto;
 }
