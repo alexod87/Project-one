@@ -115,7 +115,7 @@ input[type='radio'].visually-hidden {
 
 .discography {
   background: url(../img/discography.jpg) center bottom no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin-bottom: 100px;
 }
 
@@ -160,7 +160,7 @@ input[type='radio'].visually-hidden {
 
 .disco-list {
   margin-top: 90px;
-  padding-bottom: 455px;
+  padding-bottom: 255px;
 }
 
 .year {
@@ -209,6 +209,10 @@ input[type='radio'].visually-hidden {
 }
 
 /* CONCERT TOURS */
+
+.concert-tours-title {
+  color: #779da6;
+}
 
 .concert-tours {
   background: url(../img/concert.png) center bottom no-repeat;
