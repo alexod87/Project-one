@@ -115,7 +115,7 @@ input[type='radio'].visually-hidden {
 
 .discography {
   background: url(../img/discography.jpg) center bottom no-repeat;
-  background-size: contain;
+  background-size: cover;
   margin-bottom: 100px;
 }
 
@@ -212,7 +212,7 @@ input[type='radio'].visually-hidden {
 
 .concert-tours {
   background: url(../img/concert.png) center bottom no-repeat;
-  background-size: contain;
+  background-size: cover;
   margin-bottom: 105px;
 }
 
