@@ -50,8 +50,9 @@ input[type='radio'].visually-hidden {
 }
 
 .container {
-  width: 650px;
+  width: 750px;
   margin: 0 auto;
+  padding: 0 50px;
 }
 
 /* HEADER */
@@ -115,7 +116,7 @@ input[type='radio'].visually-hidden {
 
 .discography {
   background: url(../img/discography.jpg) center bottom no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin-bottom: 100px;
 }
 
@@ -131,6 +132,7 @@ input[type='radio'].visually-hidden {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 6px;
+  margin-bottom: 55px;
 }
 
 .title-h2::before {
@@ -160,7 +162,7 @@ input[type='radio'].visually-hidden {
 
 .disco-list {
   margin-top: 90px;
-  padding-bottom: 455px;
+  padding-bottom: 255px;
 }
 
 .year {
@@ -210,6 +212,10 @@ input[type='radio'].visually-hidden {
 
 /* CONCERT TOURS */
 
+.concert-tours-title {
+  color: #779da6;
+}
+
 .concert-tours {
   background: url(../img/concert.png) center bottom no-repeat;
   background-size: cover;
@@ -252,4 +258,28 @@ input[type='radio'].visually-hidden {
   border-color: rgb(99, 99, 99);
   border-style: solid;
   opacity: 0.439;
+}
+
+/* LATTER COMPOSITIONS */
+
+/* .title-h2::before {
+  width: 100%;
+} */
+
+.latter-compositions-about {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.latter-compositions-item {
+  background-color: #f5f6f6;
+  padding-top: 35px;
+}
+
+.latter-compositions-item:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.latter-compositions-release {
+  width: 600px;
 }
