@@ -41,11 +41,13 @@ h4,
 h5,
 p,
 ul,
-a {
+a,
+button {
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
+  border: none;
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -73,19 +75,37 @@ input[type='radio'].visually-hidden {
 
 .header-main {
   position: relative;
-  background: url(../img/header.png) center;
+  background: url(../img/header.png) center no-repeat;
   background-size: cover;
   width: 750px;
   margin: 0 auto;
-  padding-bottom: 800px;
+  padding-bottom: 1178px;
+}
+
+.pre-menu {
+  width: 100%;
+  height: 160px;
+  background: url(../img/burger.png) 90% 50% no-repeat;
+  visibility: visible;
+  transition: 200ms linear;
+}
+
+.pre-menu:hover {
+  visibility: hidden;
+}
+
+.pre-menu:hover .header-menu {
+  visibility: visible;
 }
 
 .header-menu {
+  visibility: hidden;
   position: relative;
   list-style: none;
   padding: 0;
   padding-top: 40px;
   z-index: 3;
+  transition: 200ms linear;
 }
 
 .header-menu-item {
@@ -218,7 +238,27 @@ input[type='radio'].visually-hidden {
 }
 
 .play {
+  display: block;
+  width: 196px;
+  height: 56px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: 'Open Sans';
+  line-height: 1.618;
   margin: 0 auto;
+}
+
+.disco01 {
+  background: url(../img/disco01.png);
+  color: rgb(255, 255, 255);
+}
+
+.disco02 {
+  background: url(../img/disco02.png);
+}
+
+.disco03 {
+  background: url(../img/disco03.png);
 }
 
 /* CONCERT TOURS */
@@ -381,9 +421,8 @@ input[type='radio'].visually-hidden {
 
 .lead-singer-slider {
   position: relative;
-  background-image: url(../img/slider.jpg);
+  background: url(../img/slider.jpg) center no-repeat;
   background-size: cover;
-  width: 750px;
   margin: 0 auto;
   margin-bottom: 58px;
 }
