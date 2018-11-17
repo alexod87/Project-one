@@ -179,19 +179,19 @@ input[type='radio'].visually-hidden {
 
 .discography-title {
   color: #896850;
-  margin-bottom: 40px;
+  margin-bottom: 36px;
 }
 
 .discography-about {
   padding: 0 10px;
   text-align: center;
-  font-family: 'open sans', sans-serif;
+  font-family: 'OpenSans', sans-serif;
   line-height: 1.5;
   letter-spacing: 1px;
 }
 
 .disco-list {
-  margin-top: 102px;
+  margin-top: 104px;
   padding-bottom: 460px;
 }
 
@@ -200,7 +200,7 @@ input[type='radio'].visually-hidden {
 }
 
 .article-year {
-  font-family: 'open sans', sans-serif;
+  font-family: 'OpenSans', sans-serif;
 }
 
 .article-year::after {
@@ -215,7 +215,7 @@ input[type='radio'].visually-hidden {
 
 .pre-title {
   margin: 0;
-  font-family: 'open sans', sans-serif;
+  font-family: 'OpenSans', sans-serif;
   font-size: 16px;
   text-transform: uppercase;
   margin-bottom: 38px;
@@ -223,7 +223,7 @@ input[type='radio'].visually-hidden {
 
 .article-title {
   margin: 0;
-  font-family: 'open sans', sans-serif;
+  font-family: 'OpenSans', sans-serif;
   font-size: 24px;
   margin-bottom: 18px;
   letter-spacing: 0.5px;
@@ -231,10 +231,10 @@ input[type='radio'].visually-hidden {
 
 .article-text {
   margin: 0;
-  font-family: 'open sans', sans-serif;
+  font-family: 'OpenSans', sans-serif;
   font-size: 15px;
   line-height: 1.9;
-  margin-bottom: 38px;
+  margin-bottom: 66px;
 }
 
 .play {
@@ -243,7 +243,7 @@ input[type='radio'].visually-hidden {
   height: 56px;
   text-transform: uppercase;
   font-size: 15px;
-  font-family: 'Open Sans';
+  font-family: 'OpenSans';
   line-height: 1.618;
   margin: 0 auto;
 }
@@ -280,7 +280,7 @@ input[type='radio'].visually-hidden {
 
 .concert-tours-about {
   text-align: center;
-  font-family: 'open sans', sans-serif;
+  font-family: 'OpenSans', sans-serif;
   line-height: 1.5;
   letter-spacing: 1px;
 }
@@ -302,7 +302,7 @@ input[type='radio'].visually-hidden {
   text-decoration: none;
   color: #000;
   font-size: 14px;
-  font-family: 'open sans';
+  font-family: 'OpenSans';
   line-height: 1.734;
   border-width: 1px;
   border-color: rgb(99, 99, 99);
@@ -330,7 +330,7 @@ input[type='radio'].visually-hidden {
 
 .latter-compositions-about {
   text-align: center;
-  font-family: 'open sans';
+  font-family: 'OpenSans';
   font-size: 15px;
   color: rgb(122, 128, 131);
   line-height: 1.618;
@@ -354,7 +354,7 @@ input[type='radio'].visually-hidden {
   margin-bottom: 36px;
   margin-left: 61px;
   font-size: 15px;
-  font-family: 'open sans';
+  font-family: 'OpenSans';
   line-height: 1.618;
 }
 
@@ -419,6 +419,10 @@ input[type='radio'].visually-hidden {
 
 /*-- LEAD SINGER --*/
 
+.lead-singer {
+  margin-bottom: 100px;
+}
+
 .lead-singer-slider {
   position: relative;
   background: url(../img/slider.jpg) center no-repeat;
@@ -431,7 +435,7 @@ input[type='radio'].visually-hidden {
   width: 610px;
   margin: 0 auto;
   padding-top: 208px;
-  font-family: 'open sans';
+  font-family: 'OpenSans';
   text-align: center;
 }
 
@@ -462,7 +466,7 @@ input[type='radio'].visually-hidden {
   position: relative;
   margin: 0 auto;
   width: 384px;
-  font-family: 'open sans', 'sans serif';
+  font-family: 'OpenSans';
   text-transform: uppercase;
 }
 
@@ -519,3 +523,83 @@ input[type='radio'].visually-hidden {
   width: 314px;
   background-color: #000002;
 }
+
+.upcoming {
+  margin: 0 auto;
+  background: url(../img/upcoming.jpg) center bottom no-repeat;
+  background-size: cover;
+  width: 750px;
+  margin-bottom: 92px;
+}
+
+.upcoming-head {
+  margin: 0 auto;
+  padding: 0;
+  margin-left: 152px;
+  font-family: 'OpenSans';
+  font-size: 15px;
+  line-height: 1.618;
+  width: 545px;
+}
+
+.upcoming-title {
+  font-size: 50.49px;
+  font-family: 'Dosis';
+  color: rgb(66, 113, 126);
+  text-transform: uppercase;
+  position: relative;
+  line-height: 1.174;
+  padding-top: 40px;
+  padding-bottom: 108px;
+}
+
+.upcoming-title:before {
+  content: '';
+  position: absolute;
+  top: 35%;
+  left: -3%;
+  height: 1px;
+  width: 80%;
+  background-color: #000002;
+}
+
+.upcoming-item {
+  font-size: 23px;
+  line-height: 1.055;
+  padding-bottom: 18px;
+}
+
+.upcoming-adress {
+  color: rgb(122, 128, 131);
+  padding-bottom: 73px;
+}
+
+.upcoming-date {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 203px;
+}
+
+.upcoming-descr {
+  font-family: 'OpenSans';
+  color: rgb(122, 128, 131);
+  padding-top: 14px;
+  padding-bottom: 74px;
+}
+
+.upcoming-date-next {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 292px;
+}
+
+/*.title-h2::before {
+
+
+
+
+  transform: translate(-50%, -50%);
+
+
+
+}*/
