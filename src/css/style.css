@@ -529,7 +529,7 @@ input[type='radio'].visually-hidden {
   background: url(../img/upcoming.jpg) center bottom no-repeat;
   background-size: cover;
   width: 750px;
-  margin-bottom: 92px;
+  margin-bottom: 79px;
 }
 
 .upcoming-head {
@@ -559,7 +559,7 @@ input[type='radio'].visually-hidden {
   top: 35%;
   left: -3%;
   height: 1px;
-  width: 80%;
+  width: 504px;
   background-color: #000002;
 }
 
@@ -569,15 +569,46 @@ input[type='radio'].visually-hidden {
   padding-bottom: 18px;
 }
 
+.upcoming-item:after {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 126px;
+  height: 1px;
+  background-color: #000002;
+  margin-top: 8px;
+}
+
 .upcoming-adress {
   color: rgb(122, 128, 131);
   padding-bottom: 73px;
+  position: relative;
+}
+
+.upcoming-adress:after {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 51px;
+  background-color: #000002;
+  margin: 16px 28px;
 }
 
 .upcoming-date {
   font-weight: bold;
   text-transform: uppercase;
   padding-bottom: 203px;
+}
+
+.upcoming-date:after {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 165px;
+  background-color: #000002;
+  margin: 18px 28px;
 }
 
 .upcoming-descr {
@@ -593,13 +624,39 @@ input[type='radio'].visually-hidden {
   padding-bottom: 292px;
 }
 
-/*.title-h2::before {
+.upcoming-date-next:before {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 51px;
+  background-color: #000002;
+  margin: -56px 28px;
+}
 
+.history {
+  margin: 0 auto;
+  background: url(../img/history.jpg) center bottom no-repeat;
+  background-size: cover;
+  width: 750px;
+}
 
+.history-title {
+  font-size: 50.49px;
+  font-family: 'Dosis';
+  color: rgb(91, 92, 90);
+  text-transform: uppercase;
+  line-height: 1.174;
+  text-align: center;
+  padding-bottom: 40px;
+}
 
-
-  transform: translate(-50%, -50%);
-
-
-
-}*/
+.history-text {
+  font-size: 15px;
+  font-family: 'OpenSans';
+  color: rgb(122, 128, 131);
+  line-height: 1.618;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
