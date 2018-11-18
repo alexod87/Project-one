@@ -660,3 +660,164 @@ input[type='radio'].visually-hidden {
   display: inline-block;
   width: 100%;
 }
+
+/*FORM*/
+
+.contact-section{
+  width: 574px;
+  margin: 0 auto;
+  padding-top: 210px;
+  padding-bottom: 5px;
+}
+
+.contact-head{
+  margin-bottom: 32px;
+  width: 500px;
+}
+
+.contact-title{
+  margin-bottom: 36px;
+  font-size: 50.49px;
+  font-family: "Dosis";
+  color: rgb(67, 67, 67);
+  text-transform: uppercase;
+  line-height: 1.174;
+  text-align: left;
+  position: relative;
+}
+
+.contact-title:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  height: 1px;
+  width: 500px;
+  background-color: black;
+}
+
+.contact-text{
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(121, 130, 133);
+  line-height: 3.571;
+  text-align: left;
+}
+
+.contact-tel{
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(121, 130, 133);
+  line-height: 3.571;
+}
+
+.contact-us-form{
+  width: 384px;
+  position: relative;
+}
+
+.contact-us-form:after{
+  content: '';
+  width: 0px;
+  height: 190px;
+  position: absolute;
+  border: 1px solid black;
+  top: 0;
+  left: 500px;
+}
+
+.group {
+  position: relative;
+  margin-bottom: 30px;
+  width: 380px;
+}
+
+input {
+  width: 380px;
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+input:focus {
+  outline: none;
+}
+/* LABEL ======================================= */
+
+label {
+   font-size: 14px;
+   font-family: "OpenSans";
+   color: rgb(121, 130, 133);
+   line-height: 1.734;
+  position: absolute;
+  pointer-events: none;
+  left: 10px;
+  top: 15px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label {
+  top: -15px;
+  font-size: 14px;
+  color: #5264AE;
+}
+
+/* BOTTOM BARS ================================= */
+.bar {
+  position: relative;
+  display: block;
+  width: 380px;
+}
+
+.bar:before, .bar:after {
+  content: "";
+  height: 2px;
+  width: 0;
+  bottom: 0;
+  position: absolute;
+  background: #5264AE;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+  left: 50%;
+}
+
+.bar:after {
+  right: 50%;
+}
+
+/* active state */
+input:focus ~ .bar:before,
+input:focus ~ .bar:after {
+  width: 50%;
+}
+
+button {
+  display: block;
+  font-size: 20px;
+  font-family: "OpenSans";
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.214;
+  text-decoration: none;
+  border: 0;
+  outline: none;
+  background-color: none;
+} 
+
+button:hover,
+button:focus {
+  background: rgba(204, 169, 169, 0.2);
+  cursor: pointer;
+  color: #2a8127;
+}  
+
