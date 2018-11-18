@@ -506,13 +506,45 @@
           </p>
         </header>
       </section>
-      <section class="contact">
+      <section class="contact-section">
         <header class="contact-head">
           <h2 class="contact-title">Contact</h2>
           <p class="contact-text">
-            Canada Island, Division No. 23, Unorganized, MB, Canada Tel. +1(778)
-            288 5180
+            Canada Island, Division No. 23, Unorganized, MB, Canada 
           </p>
+          <p class="contact-tel">Tel. +1(778)288 5180</p>
+        </header>
+         <!-- --NEW FORM -->
+          <div class="contact-us-div">
+            <form class="contact-us-form" method="POST" id="user_form">
+              <div class="group">
+              <input type="text" id="name" autofocus required> 
+              <span class="bar"></span>
+              <label for="name">Name</label>
+              </div>
+              <div class="group">
+               <input type="email" id="email"  required>
+              <span class="bar"></span>
+              <label for="email">Email</label>
+              </div>
+              <div class="group">
+              <input type="text" id="message"  required> 
+              <span class="bar"></span>
+              <label for="message">Message</label>
+              </div>
+              <!--<textarea name="customer-message" placeholder="Your message *" required wrap="soft" form="user_request"></textarea> -->
+              <button type="submit">Send</button>
+            </form>
+             <div class="icons-form">
+              <ul class="icons-form-list">
+                <li class="icons-list-item icon-facebook"></li>
+                <li class="icons-list-item icon-instagram"></li>
+                <li class="icons-list-item icon-twitter"></li>
+              </ul>
+            </div>
+          </div>
+
+          <!--
           <div class="signup">
             <form class="signup-form" action="">
               <ul class="signup-form-list">
@@ -548,7 +580,8 @@
               </ul>
             </div>
           </div>
-        </header>
+          -->
+
       </section>
     </main>
   </body>
