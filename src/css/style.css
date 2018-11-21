@@ -1,4 +1,4 @@
-@font-face {
+git @font-face {
   font-family: 'Dosis';
   font-style: normal;
   font-weight: 400;
@@ -185,6 +185,7 @@ input[type='radio'].visually-hidden {
 }
 
 .discography-about {
+
   padding: 0 1rem;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -195,6 +196,7 @@ input[type='radio'].visually-hidden {
 .disco-list {
   margin-top: 10.4rem;
   padding-bottom: 43rem;
+
 }
 
 .disco-list-item {
@@ -525,6 +527,29 @@ input[type='radio'].visually-hidden {
 .lead-singer-item {
   position: relative;
 }
+.lead-singer-wrapper{
+  position: relative;
+}
+
+.lead-singer-item::after{
+  display: block;
+  content: "01";
+  position: absolute;
+  bottom: -28%;
+  right:  -24%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  height: 136px;
+  width: 136px;
+  font-size: 90px;
+  font-family: "OpenSans";
+  color: rgba(0, 0, 0, 0.169);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.734;
+  text-align: center;
+}
+  
 
 .lead-singer-wrapper {
   position: absolute;
