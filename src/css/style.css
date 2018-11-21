@@ -192,11 +192,11 @@ input[type='radio'].visually-hidden {
 
 .disco-list {
   margin-top: 104px;
-  padding-bottom: 460px;
+  padding-bottom: 430px;
 }
 
 .disco-list-item {
-  margin-bottom: 90px;
+  margin-bottom: 70px;
 }
 
 .article-year {
@@ -281,8 +281,8 @@ input[type='radio'].visually-hidden {
 .concert-tours-about {
   text-align: center;
   font-family: 'OpenSans', sans-serif;
-  line-height: 1.5;
-  letter-spacing: 1px;
+  line-height: 2;
+  letter-spacing: 1.2px;
 }
 
 .half-container {
@@ -291,18 +291,19 @@ input[type='radio'].visually-hidden {
 }
 
 .concert-tours-smoke {
-  margin-bottom: 72px;
+  margin-bottom: 85px;
 }
 
 .buy-online {
   display: block;
   width: 200px;
   margin-top: 55px;
-  padding: 15px 50px;
+  padding: 15px 40px;
   text-decoration: none;
   color: #000;
   font-size: 14px;
-  font-family: 'OpenSans';
+  font-family: 'OpenSans', sans-serif;
+  font-weight: 700;
   line-height: 1.734;
   border-width: 1px;
   border-color: rgb(99, 99, 99);
@@ -315,10 +316,6 @@ input[type='radio'].visually-hidden {
 }
 
 /* LATTER COMPOSITIONS */
-
-/* .title-h2::before {
-  width: 100%;
-}  */
 
 .latter-compositions {
   margin-bottom: 120px;
@@ -334,7 +331,7 @@ input[type='radio'].visually-hidden {
 
 .latter-compositions-about {
   text-align: center;
-  font-family: 'OpenSans';
+  font-family: 'Open Sans';
   font-size: 15px;
   color: rgb(122, 128, 131);
   line-height: 1.618;
@@ -342,6 +339,7 @@ input[type='radio'].visually-hidden {
 
 .latter-compositions-release {
   max-width: 600px;
+  margin: 0 auto;
 }
 
 .latter-compositions-item {
@@ -356,9 +354,9 @@ input[type='radio'].visually-hidden {
 .latter-compositions-wrapper {
   width: 505px;
   margin-bottom: 36px;
-  margin-left: 61px;
+  margin-left: 35px;
   font-size: 15px;
-  font-family: 'OpenSans';
+  font-family: 'Open Sans';
   line-height: 1.618;
 }
 
@@ -385,14 +383,16 @@ input[type='radio'].visually-hidden {
 
 .latter-compositions-songs-text {
   color: rgb(122, 128, 131);
-  padding-bottom: 54px;
+  padding-bottom: 35px;
 }
 
 .latter-compositions-button {
   width: 196px;
-  padding: 12px 22px;
+  padding: 13px 22px;
   text-align: left;
   color: rgb(0, 0, 2);
+  font-size: 15px;
+  font-family: 'OpenSans', sans-serif;
   line-height: 1.618;
   border-width: 1px;
   border-color: rgb(98, 98, 98);
@@ -435,7 +435,7 @@ input[type='radio'].visually-hidden {
 /*-- LEAD SINGER --*/
 
 .lead-singer {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .lead-singer-slider {
@@ -464,7 +464,7 @@ input[type='radio'].visually-hidden {
 .slider-icons-left {
   width: 26px;
   margin-right: 15px;
-  transform: rotate(20deg);
+  transform: rotate(-35deg) rotateY(180deg) scaley(0.5);
 }
 
 .slider-icons-music {
@@ -474,12 +474,12 @@ input[type='radio'].visually-hidden {
 .slider-icons-right {
   width: 26px;
   margin-left: 20px;
-  transform: rotate(45deg);
+  transform: rotate(35deg) scaley(0.5);
 }
 
 .lead-singer-about {
   font-size: 17px;
-  font-family: 'Myriad Pro';
+  font-family: 'OpenSans', sans-serif;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   line-height: 1.545;
@@ -488,6 +488,7 @@ input[type='radio'].visually-hidden {
 
 .lead-singer-text {
   font-size: 15px;
+  font-family: 'OpenSans', sans-serif;
   color: rgb(122, 128, 131);
   line-height: 1.618;
   padding-bottom: 58px;
@@ -497,44 +498,29 @@ input[type='radio'].visually-hidden {
   font-size: 14px;
   color: rgb(86, 94, 97);
   line-height: 1.734;
-  padding-bottom: 170px;
+  padding-bottom: 75px;
 }
 
-/*.slider-icons-bottom {
-  position: absolute;
-  top: 86%;
-  left: 50%;
-  border-color: rgb(255, 255, 255);
-  border-style: solid;
-  border-radius: 50%;
-
+.slider-icons-bottom {
+  width: 110px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  fill: rgb(86, 94, 97);
+
+  padding-bottom: 85px;
 }
 
-.slider-icons-bottom .circle {
-  border-width: 1px;
-  width: 9px;
-  height: 9px;
+.circle {
+  width: 11px;
+  height: 11px;
 }
-
-.slider-icons-bottom .circle2 {
-  width: 9px;
-  height: 9px;
-  background-color: rgb(255, 255, 255);
-}
-
-.slider-icons-bottom .circle3 {
-  width: 9px;
-  height: 9px;
-  background-color: rgb(255, 255, 255);
-}*/
 
 .lead-singer-songs {
   position: relative;
   margin: 0 auto;
   width: 384px;
-  font-family: 'OpenSans';
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
 }
 
@@ -574,7 +560,7 @@ input[type='radio'].visually-hidden {
 
 .lead-singer-album-text {
   font-size: 15px;
-  font-family: 'OpenSans';
+  font-family: 'Open Sans';
   color: rgb(122, 128, 131);
   line-height: 1.618;
   text-transform: none;
@@ -604,7 +590,6 @@ input[type='radio'].visually-hidden {
   margin: 0 auto;
   padding: 0;
   margin-left: 152px;
-  font-family: 'OpenSans';
   font-size: 15px;
   line-height: 1.618;
   width: 545px;
@@ -612,13 +597,13 @@ input[type='radio'].visually-hidden {
 
 .upcoming-title {
   font-size: 50.49px;
-  font-family: 'Dosis';
   color: rgb(66, 113, 126);
   text-transform: uppercase;
   position: relative;
   line-height: 1.174;
   padding-top: 40px;
-  padding-bottom: 108px;
+  letter-spacing: 6px;
+  padding-bottom: 100px;
 }
 
 .upcoming-title:before {
@@ -632,8 +617,9 @@ input[type='radio'].visually-hidden {
 }
 
 .upcoming-item {
-  font-size: 23px;
+  font-size: 26px;
   line-height: 1.055;
+  letter-spacing: 2px;
   padding-bottom: 18px;
 }
 
@@ -650,6 +636,8 @@ input[type='radio'].visually-hidden {
 .upcoming-adress {
   color: rgb(122, 128, 131);
   padding-bottom: 73px;
+  font-weight: bold;
+  letter-spacing: 2px;
   position: relative;
 }
 
@@ -665,6 +653,7 @@ input[type='radio'].visually-hidden {
 
 .upcoming-date {
   font-weight: bold;
+  letter-spacing: 2px;
   text-transform: uppercase;
   padding-bottom: 203px;
 }
@@ -684,11 +673,13 @@ input[type='radio'].visually-hidden {
   color: rgb(122, 128, 131);
   padding-top: 14px;
   padding-bottom: 74px;
+  font-weight: bold;
 }
 
 .upcoming-date-next {
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: 2px;
   padding-bottom: 292px;
 }
 
@@ -711,44 +702,67 @@ input[type='radio'].visually-hidden {
 
 .history-title {
   font-size: 50.49px;
-  font-family: 'Dosis';
   color: rgb(91, 92, 90);
   text-transform: uppercase;
+  letter-spacing: 6px;
   line-height: 1.174;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 35px;
 }
 
 .history-text {
   font-size: 15px;
-  font-family: 'OpenSans';
+  font-family: 'Open Sans';
+  letter-spacing: 2px;
   color: rgb(122, 128, 131);
   line-height: 1.618;
   text-align: center;
   display: inline-block;
   width: 100%;
+  padding-bottom: 100px;
+}
+
+.history-list {
+  display: flex;
+  text-transform: uppercase;
+  color: rgb(122, 128, 131);
+  font-size: 36px;
+  justify-content: space-between;
+  padding-bottom: 35px;
+}
+
+.history-text-descr {
+  width: 220px;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(122, 128, 131);
+  font-weight: 700;
+  padding-bottom: 610px;
 }
 
 /*FORM*/
 
 .contact-section {
-  width: 574px;
-  margin: 0 auto;
-  padding-top: 210px;
+  padding-top: 80px;
   padding-bottom: 5px;
+  background: url(../img/contact.jpg) center;
+  background-size: cover;
+  padding-bottom: 500px;
 }
 
 .contact-head {
   margin-bottom: 32px;
   width: 500px;
+  margin: 0 auto;
 }
 
 .contact-title {
-  margin-bottom: 36px;
+  margin-bottom: 15px;
   font-size: 50.49px;
-  font-family: 'Dosis';
   color: rgb(67, 67, 67);
   text-transform: uppercase;
+  letter-spacing: 6px;
+  color: rgb(122, 128, 131);
   line-height: 1.174;
   text-align: left;
   position: relative;
@@ -767,7 +781,7 @@ input[type='radio'].visually-hidden {
 
 .contact-text {
   font-size: 14px;
-  font-family: 'OpenSans';
+  font-family: 'Open Sans';
   color: rgb(121, 130, 133);
   line-height: 3.571;
   text-align: left;
@@ -775,7 +789,7 @@ input[type='radio'].visually-hidden {
 
 .contact-tel {
   font-size: 14px;
-  font-family: 'OpenSans';
+  font-family: 'Open Sans';
   color: rgb(121, 130, 133);
   line-height: 3.571;
 }
@@ -813,11 +827,12 @@ input {
 input:focus {
   outline: none;
 }
+
 /* LABEL ======================================= */
 
 label {
    font-size: 14px;
-   font-family: 'OpenSans';
+   font-family: 'Open Sans';
    color: rgb(121, 130, 133);
    line-height: 1.734;
   position: absolute;
