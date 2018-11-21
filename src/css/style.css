@@ -20,6 +20,7 @@ git @font-face {
 html {
   box-sizing: border-box;
   font-family: 'Dosis', sans-serif;
+  font-size: 62.5%;
 }
 
 *,
@@ -66,9 +67,10 @@ input[type='radio'].visually-hidden {
 }
 
 .container {
-  width: 750px;
+  width: 100%;
+  max-width: 117rem;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0 0.5rem;
 }
 
 /* HEADER */
@@ -77,14 +79,14 @@ input[type='radio'].visually-hidden {
   position: relative;
   background: url(../img/header.png) center no-repeat;
   background-size: cover;
-  /*width: 750px;    -тянущийся фон*/
+  width: 100%;
   margin: 0 auto;
-  padding-bottom: 1178px;
+  padding-bottom: 117.8rem;
 }
 
 .pre-menu {
   width: 100%;
-  height: 160px;
+  height: 16rem;
   background: url(../img/burger.png) 90% 50% no-repeat;
   visibility: visible;
   transition: 200ms linear;
@@ -103,7 +105,7 @@ input[type='radio'].visually-hidden {
   position: relative;
   list-style: none;
   padding: 0;
-  padding-top: 40px;
+  padding-top: 4rem;
   z-index: 3;
   transition: 200ms linear;
 }
@@ -111,7 +113,7 @@ input[type='radio'].visually-hidden {
 .header-menu-item {
   display: block;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.7rem;
   color: rgb(0, 0, 0);
   text-transform: uppercase;
   text-align: center;
@@ -123,7 +125,7 @@ input[type='radio'].visually-hidden {
 .header-menu-item::after {
   background-color: #000000;
   width: 0%;
-  height: 3px;
+  height: 0.3rem;
   margin: 0 auto;
   display: block;
   content: '';
@@ -136,8 +138,8 @@ input[type='radio'].visually-hidden {
 
 .logo {
   position: absolute;
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  height: 30%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -150,19 +152,19 @@ input[type='radio'].visually-hidden {
 .discography {
   background: url(../img/discography.jpg) center bottom no-repeat;
   background-size: cover;
-  margin-top: 20px;
-  margin-bottom: 100px;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
 }
 
 .title-h2 {
   text-align: center;
   position: relative;
-  font-size: 50px;
+  font-size: 4.6rem;
   width: max-content;
   margin: 0 auto;
   text-transform: uppercase;
   font-weight: 400;
-  letter-spacing: 6px;
+  letter-spacing: 0.5rem;
 }
 
 .title-h2::before {
@@ -173,79 +175,79 @@ input[type='radio'].visually-hidden {
   left: 50%;
   transform: translate(-50%, -50%);
   height: 1px;
-  width: 110%;
+  width: 100%;
   background-color: #000002;
 }
 
 .discography-title {
   color: #896850;
-  margin-bottom: 36px;
+  margin-bottom: 3.6rem;
 }
 
 .discography-about {
-  width: 1082px;
-  padding: 0 10px;
+
+  padding: 0 1rem;
   text-align: center;
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
 }
 
 .disco-list {
-  
-  margin-top: 104px;
-  padding-bottom: 430px;
+  margin-top: 10.4rem;
+  padding-bottom: 43rem;
+
 }
 
 .disco-list-item {
-  margin-bottom: 70px;
+  margin-bottom: 7rem;
 }
 
 .article-year {
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .article-year::after {
   display: block;
   content: '';
-  height: 1px;
-  width: 650px;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  height: 0.1rem;
+  width: 80%;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
   background-color: #000002;
 }
 
 .pre-title {
   margin: 0;
-  font-family: 'OpenSans', sans-serif;
-  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
   text-transform: uppercase;
-  margin-bottom: 38px;
+  margin-bottom: 3.8rem;
 }
 
 .article-title {
   margin: 0;
-  font-family: 'OpenSans', sans-serif;
-  font-size: 24px;
-  margin-bottom: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.4rem;
+  margin-bottom: 1.8rem;
   letter-spacing: 0.5px;
 }
 
 .article-text {
   margin: 0;
-  font-family: 'OpenSans', sans-serif;
-  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
   line-height: 1.9;
-  margin-bottom: 66px;
+  margin-bottom: 6.6rem;
 }
 
 .play {
   display: block;
-  width: 196px;
-  height: 56px;
+  width: 19.6rem;
+  height: 5.6rem;
   text-transform: uppercase;
-  font-size: 15px;
-  font-family: 'OpenSans';
+  font-size: 1.5rem;
+  font-family: 'Open Sans';
   line-height: 1.618;
   margin: 0 auto;
 }
@@ -268,43 +270,43 @@ input[type='radio'].visually-hidden {
 .concert-tours {
   background: url(../img/concert.png) center bottom no-repeat;
   background-size: cover;
-  margin-bottom: 105px;
+  margin-bottom: 10rem;
 }
 
 .concert-tours-head {
-  margin-bottom: 310px;
+  margin-bottom: 31rem;
 }
 
 .concert-tours-title {
   color: #779da6;
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
 
 .concert-tours-about {
   text-align: center;
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 2;
   letter-spacing: 1.2px;
 }
 
 .half-container {
-  width: 400px;
-  padding-bottom: 50px;
+  width: 70%;
+  padding-bottom: 5rem;
 }
 
 .concert-tours-smoke {
-  margin-bottom: 85px;
+  margin-bottom: 8.5rem;
 }
 
 .buy-online {
   display: block;
-  width: 200px;
-  margin-top: 55px;
-  padding: 15px 40px;
+  width: 20rem;
+  margin-top: 5.5rem;
+  padding: 1.5rem 4rem;
   text-decoration: none;
   color: #000;
-  font-size: 14px;
-  font-family: 'OpenSans', sans-serif;
+  font-size: 1.4rem;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   line-height: 1.734;
   border-width: 1px;
@@ -314,87 +316,86 @@ input[type='radio'].visually-hidden {
 }
 
 .buy-online span {
-  padding-right: 20px;
+  padding-right: 2rem;
 }
 
 /* LATTER COMPOSITIONS */
 
 .latter-compositions {
-  margin-bottom: 120px;
+  margin-bottom: 12rem;
 }
 
 .latter-compositions-head {
-  margin-bottom: 52px;
+  margin-bottom: 5rem;
 }
 
 .latter-compositions-title {
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
 
 .latter-compositions-about {
   text-align: center;
   font-family: 'Open Sans';
-  font-size: 15px;
+  font-size: 1.5rem;
   color: rgb(122, 128, 131);
   line-height: 1.618;
 }
 
 .latter-compositions-release {
-  max-width: 600px;
   margin: 0 auto;
 }
 
 .latter-compositions-item {
   background-color: #f5f6f6;
-  padding-top: 35px;
+  padding-top: 3.5rem;
 }
 
 .latter-compositions-item:not(:last-child) {
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 .latter-compositions-wrapper {
-  width: 505px;
-  margin-bottom: 36px;
-  margin-left: 35px;
-  font-size: 15px;
+  width: 90%;
+  margin-bottom: 3.6rem;
+  margin-left: 5%;
+  font-size: 1.5rem;
   font-family: 'Open Sans';
   line-height: 1.618;
 }
 
 .latter-compositions-album {
-  font-size: 15px;
+  font-size: 1.5rem;
   text-transform: uppercase;
-  padding-top: 7px;
-  padding-bottom: 40px;
+  padding-top: 0.7rem;
+  padding-bottom: 4rem;
 }
 
 .latter-compositions-album::before {
   display: block;
   content: '';
   height: 1px;
-  width: 392px;
+  width: 75%;
   background-color: #000002;
 }
 
 .latter-compositions-songs {
-  font-size: 23px;
+  font-size: 2.3rem;
   line-height: 1.055;
-  padding-bottom: 32px;
+  padding-bottom: 3.2rem;
 }
 
 .latter-compositions-songs-text {
   color: rgb(122, 128, 131);
-  padding-bottom: 35px;
+  padding-bottom: 3.5rem;
 }
 
 .latter-compositions-button {
-  width: 196px;
-  padding: 13px 22px;
+  width: 40%;
+  padding: 1.3rem 2.2rem;
   text-align: left;
   color: rgb(0, 0, 2);
   font-size: 15px;
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.618;
   border-width: 1px;
   border-color: rgb(98, 98, 98);
@@ -410,8 +411,8 @@ input[type='radio'].visually-hidden {
 
 .button-icon {
   fill: rgb(0, 0, 2);
-  width: 10px;
-  height: 10px;
+  width: 1rem;
+  height: 1rem;
 }
 
 .latter-compositions-list {
@@ -419,25 +420,24 @@ input[type='radio'].visually-hidden {
   flex-basis: 55%;
   justify-content: space-between;
   align-items: flex-end;
-  padding-right: 26px;
-  font-size: 13px;
-  font-family: 'Myriad Pro';
+  padding-right: 2.6rem;
+  font-size: 1.3rem;
   color: rgb(151, 152, 152);
   line-height: 1.2;
   position: relative;
 }
 
 .icon {
-  width: 13px;
-  height: 13px;
+  width: 1.3rem;
+  height: 1.3rem;
   fill: rgba(151, 152, 152, 0.8);
-  margin-right: 5px;
+  margin-right: 0.5rem;
 }
 
 /*-- LEAD SINGER --*/
 
 .lead-singer {
-  margin-bottom: 80px;
+  margin-bottom: 8rem;
 }
 
 .lead-singer-slider {
@@ -445,77 +445,75 @@ input[type='radio'].visually-hidden {
   background: url(../img/slider.jpg) center no-repeat;
   background-size: cover;
   margin: 0 auto;
-  margin-bottom: 58px;
+  margin-bottom: 5.8rem;
 }
 
 .slider-descr {
-  width: 610px;
   margin: 0 auto;
-  padding-top: 208px;
+  padding-top: 20rem;
   font-family: 'OpenSans';
   text-align: center;
 }
 
 .slider-icons {
-  position: absolute;
-  top: 16%;
-  left: 44%;
+  display: flex;
+  width: 10rem;
+  margin: 0 auto;
+  justify-content: space-between;
   fill: #ffffff;
 }
 
 .slider-icons-left {
-  width: 26px;
-  margin-right: 15px;
+  width: 2.6rem;
   transform: rotate(-35deg) rotateY(180deg) scaley(0.5);
 }
 
 .slider-icons-music {
-  width: 32px;
+  width: 3.2rem;
 }
 
 .slider-icons-right {
-  width: 26px;
-  margin-left: 20px;
+  width: 2.6rem;
   transform: rotate(35deg) scaley(0.5);
 }
 
 .lead-singer-about {
-  font-size: 17px;
-  font-family: 'OpenSans', sans-serif;
+  font-size: 1.7rem;
+  font-family: 'Open Sans', sans-serif;
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   line-height: 1.545;
-  padding-bottom: 26px;
+  padding-bottom: 2.6rem;
 }
 
 .lead-singer-text {
-  font-size: 15px;
-  font-family: 'OpenSans', sans-serif;
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
   color: rgb(122, 128, 131);
   line-height: 1.618;
-  padding-bottom: 58px;
+  padding-bottom: 5.8rem;
 }
 
 .lead-singer-years {
-  font-size: 14px;
+  font-size: 1.4rem;
   color: rgb(86, 94, 97);
   line-height: 1.734;
-  padding-bottom: 75px;
+  padding-bottom: 7.5rem;
 }
 
 .slider-icons-bottom {
-  width: 110px;
+  width: 10rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   fill: rgb(86, 94, 97);
 
-  padding-bottom: 85px;
+  padding-bottom: 8.5rem;
 }
 
 .circle {
-  width: 11px;
-  height: 11px;
+  width: 1rem;
+  height: 1rem;
 }
 
 .lead-singer-songs {
