@@ -151,12 +151,14 @@ input[type='radio'].visually-hidden {
 
 .discography {
   background: url(../img/discography.jpg) center bottom no-repeat;
-  background-size: cover;
+  background-size: auto;
   margin-top: 2rem;
   margin-bottom: 10rem;
+  text-align: center;
 }
 
 .title-h2 {
+  display: inline-block;
   text-align: center;
   position: relative;
   font-size: 2.6rem;
@@ -210,8 +212,7 @@ input[type='radio'].visually-hidden {
   content: '';
   height: 0.1rem;
   width: 80%;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  margin: 1rem auto 0.5rem auto;
   background-color: #000002;
 }
 
@@ -266,13 +267,13 @@ input[type='radio'].visually-hidden {
 /* CONCERT TOURS */
 
 .concert-tours {
-  background: url(../img/concert.png) center bottom no-repeat;
-  background-size: cover;
+  background: url(../img/concert.png) 70% 50% no-repeat;
+  background-size: auto;
   margin-bottom: 10rem;
 }
 
 .concert-tours-head {
-  margin-bottom: 31rem;
+  margin-bottom: 15rem;
 }
 
 .concert-tours-title {
@@ -604,8 +605,8 @@ input[type='radio'].visually-hidden {
 
 .upcoming {
   margin: 0 auto;
-  background: url(../img/upcoming.jpg) center bottom no-repeat;
-  background-size: cover;
+  background: url(../img/upcoming.jpg) 29% 50% no-repeat;
+  background-size: auto;
   max-width: 75rem;
   margin-bottom: 7.9rem;
 }
@@ -723,7 +724,7 @@ input[type='radio'].visually-hidden {
 .history {
   margin: 0 auto;
   background: url(../img/history.jpg) center bottom no-repeat;
-  background-size: cover;
+  background-size: auto;
   max-width: 75rem;
 }
 
@@ -773,8 +774,8 @@ input[type='radio'].visually-hidden {
 .contact-section {
   padding-top: 8rem;
   padding-bottom: 0.5rem;
-  background: url(../img/contact.jpg) center;
-  background-size: cover;
+  background: url(../img/contact.jpg) 36% 54% no-repeat;
+  background-size: auto;
   padding-bottom: 50rem;
 }
 
