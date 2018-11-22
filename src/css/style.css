@@ -1,4 +1,4 @@
-git @font-face {
+@font-face {
   font-family: 'Dosis';
   font-style: normal;
   font-weight: 400;
@@ -161,8 +161,7 @@ input[type='radio'].visually-hidden {
   display: inline-block;
   text-align: center;
   position: relative;
-  font-size: 3rem;
-
+  font-size: 2.6rem;
   /* width: max-content; */
   margin: 0 auto;
   text-transform: uppercase;
@@ -193,7 +192,6 @@ input[type='radio'].visually-hidden {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
   letter-spacing: 0.1rem;
-  font-size: 1rem;
 }
 
 .disco-list {
@@ -272,12 +270,10 @@ input[type='radio'].visually-hidden {
   background: url(../img/concert.png) center bottom no-repeat;
   background-size: cover;
   margin-bottom: 10rem;
-  padding: 5%;
 }
 
 .concert-tours-head {
   margin-bottom: 15rem;
-  text-align: center;
 }
 
 .concert-tours-title {
@@ -330,7 +326,6 @@ input[type='radio'].visually-hidden {
 
 .latter-compositions-head {
   margin-bottom: 5rem;
-  text-align: center;
 }
 
 .latter-compositions-title {
@@ -670,8 +665,8 @@ input[type='radio'].visually-hidden {
 .lead-singer-wrapper {
   position: absolute;
   top: 7%;
+  /* left: 12%; */
   width: 30.8rem;
-  padding-left: 5%;
 }
 
 .lead-singer-date {
@@ -705,11 +700,7 @@ input[type='radio'].visually-hidden {
   text-transform: none;
 }
 
-/* .lead-singer-item:not(:last-child) {
-  padding-bottom: 5.4rem;
-} */
-
-.lead-singer-item {
+.lead-singer-item:not(:last-child) {
   padding-bottom: 5.4rem;
 }
 
@@ -734,14 +725,32 @@ input[type='radio'].visually-hidden {
 .upcoming-head {
   margin: 0 auto;
   padding: 0;
-  padding-left: 5%;
+  padding-right: 0.5rem;
+  margin-left: 8.2rem;
   font-size: 1.5rem;
   line-height: 1.618;
+  max-width: 54.5rem;
 }
 
 .upcoming-title {
   font-size: 3.5rem;
   color: rgb(66, 113, 126);
+  text-transform: uppercase;
+  position: relative;
+  line-height: 1.174;
+  padding-top: 4rem;
+  letter-spacing: 0.6rem;
+  padding-bottom: 10rem;
+}
+
+.upcoming-title:before {
+  content: '';
+  position: absolute;
+  top: 35%;
+  left: -3%;
+  height: 0.1rem;
+  max-width: 50.4rem;
+  background-color: #000002;
 }
 
 .upcoming-item {
@@ -828,7 +837,6 @@ input[type='radio'].visually-hidden {
   background: url(../img/history.jpg) center bottom no-repeat;
   background-size: cover;
   width: 100%;
-  text-align: center;
 }
 
 .history-title {
@@ -838,7 +846,7 @@ input[type='radio'].visually-hidden {
   letter-spacing: 0.6rem;
   line-height: 1.174;
   text-align: center;
-  margin-bottom: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .history-text {
@@ -859,6 +867,7 @@ input[type='radio'].visually-hidden {
   color: rgb(122, 128, 131);
   font-size: 2.6rem;
   justify-content: space-between;
+  /* padding: 0 0.5rem 0.5rem 3.5rem; */
   margin-bottom: 2rem;
 }
 
@@ -866,7 +875,6 @@ input[type='radio'].visually-hidden {
   width: 22rem;
   margin: 0 auto;
   text-align: center;
-  font-size: 1.5rem;
   color: rgb(122, 128, 131);
   font-weight: 700;
   padding-bottom: 61rem;
@@ -875,6 +883,7 @@ input[type='radio'].visually-hidden {
 /*FORM START*/
 
 .contact-section {
+  margin: 0 auto;
   padding-top: 8rem;
   padding-bottom: 0.5rem;
   background: url(../img/contact.jpg) center no-repeat;
@@ -884,13 +893,13 @@ input[type='radio'].visually-hidden {
 }
 
 .contact-head {
-  margin-bottom: 3.2rem;
+  padding-bottom: 3.2rem;
   max-width: 50rem;
   margin: 0 auto;
 }
 
 .contact-title {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
   font-size: 5rem;
   color: rgb(67, 67, 67);
   text-transform: uppercase;
@@ -927,7 +936,12 @@ input[type='radio'].visually-hidden {
   line-height: 3.571;
 }
 
+.contact-us-div {
+  position: relative;
+}
+
 .contact-us-form {
+  margin: 0 70rem;
   max-width: 38.4rem;
   position: relative;
 }
@@ -938,14 +952,37 @@ input[type='radio'].visually-hidden {
   height: 19rem;
   position: absolute;
   border: 1px solid black;
-  top: 0;
-  left: 31rem;
+  top: 3rem;
+  left: 51rem;
 }
 
 .group {
   position: relative;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   max-width: 38rem;
+}
+
+.icons-form {
+  position: absolute;
+  top: 3rem;
+  left: 124rem;
+}
+
+.icons-form-facebook {
+  width: 1.8rem;
+  height: 1.7rem;
+}
+
+.icons-form-instagram {
+  width: 1.9rem;
+  height: 1.9rem;
+  margin-top: 6.7rem;
+  margin-bottom: 6.7rem;
+}
+
+.icons-form-twitter {
+  width: 1.6rem;
+  height: 1.3rem;
 }
 
 input {
@@ -964,10 +1001,10 @@ input:focus {
 /* LABEL ======================================= */
 
 label {
-   font-size: 1.4rem;
-   font-family: 'Open Sans';
-   color: rgb(121, 130, 133);
-   line-height: 1.734;
+  font-size: 1.4rem;
+  font-family: 'Open Sans';
+  color: rgb(121, 130, 133);
+  line-height: 1.734;
   position: absolute;
   pointer-events: none;
   left: 1rem;
