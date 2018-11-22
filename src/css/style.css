@@ -607,7 +607,7 @@ input[type='radio'].visually-hidden {
   margin: 0 auto;
   background: url(../img/upcoming.jpg) center no-repeat;
   background-size: cover;
-  max-width: 75rem;
+  width: 100%;
   margin-bottom: 7.9rem;
 }
 
@@ -725,7 +725,7 @@ input[type='radio'].visually-hidden {
   margin: 0 auto;
   background: url(../img/history.jpg) center bottom no-repeat;
   background-size: cover;
-  max-width: 75rem;
+  width: 100%;
 }
 
 .history-title {
@@ -777,6 +777,7 @@ input[type='radio'].visually-hidden {
   background: url(../img/contact.jpg) center no-repeat;
   background-size: cover;
   padding-bottom: 50rem;
+  width: 100%;
 }
 
 .contact-head {
