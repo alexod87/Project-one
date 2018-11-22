@@ -528,22 +528,133 @@ input[type='radio'].visually-hidden {
 .lead-singer-item {
   position: relative;
 }
-.lead-singer-wrapper {
-  position: relative;
-}
 
-.lead-singer-item::after {
+.digital_one::after{
   display: block;
   content: '01';
+  position: absolute;
+    bottom: -13%;
+  right:  -24%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  height: 13.6rem;
+  width: 13.6rem;
+  font-size: 9rem;
+  font-family: 'Open Sans';
+  color: rgba(0, 0, 0, 0.169);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.734;
+  text-align: center;
+}
+
+ .digital_two::after{
+  display: block;
+  content: "02";
+  position: absolute;
+  bottom: -13%;
+  right:  -24%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  height: 13.6rem;
+  width: 13.6rem;
+  font-size: 9rem;
+  font-family: 'Open Sans';
+  color: rgba(0, 0, 0, 0.169);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.734;
+  text-align: center;
+}
+
+ .digital_two::after{
+  display: block;
+  content: "02";
+  position: absolute;
+  bottom: -13%;
+  right:  -24%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  height: 13.6rem;
+  width: 13.6rem;
+  font-size: 9rem;
+  font-family: 'Open Sans';
+  color: rgba(0, 0, 0, 0.169);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.734;
+  text-align: center;
+}
+
+ .digital_three::after{
+  display: block;
+  content: "03";
+  position: absolute;
+  bottom: -13%;
+  right:  -24%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  height: 13.6rem;
+  width: 13.6rem;
+  font-size: 9rem;
+  font-family: 'Open Sans';
+  color: rgba(0, 0, 0, 0.169);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.734;
+  text-align: center;
+}
+
+.digital_four::after{
+  display: block;
+  content: "04";
+  position: absolute;
+  bottom: -13%;
+  right:  -24%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  height: 13.6rem;
+  width: 13.6rem;
+  font-size: 9rem;
+  font-family: 'Open Sans';
+  color: rgba(0, 0, 0, 0.169);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.734;
+  text-align: center;
+}
+
+.digital_five::after{
+  display: block;
+  content: "05";
+  position: absolute;
+  bottom: -13%;
+  right:  -24%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  height: 13.6rem;
+  width: 13.6rem;
+  font-size: 9rem;
+  font-family: 'Open Sans';
+  color: rgba(0, 0, 0, 0.169);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.734;
+  text-align: center;
+}
+
+.digital_six::after{
+  display: block;
+  content: "06";
   position: absolute;
   bottom: -15%;
   right: -16%;
   transform: translate(-50%, -50%);
   background-color: transparent;
-  height: 10rem;
-  width: 10rem;
+  height: 13.6rem;
+  width: 13.6rem;
   font-size: 9rem;
-  font-family: 'OpenSans';
+  font-family: 'Open Sans';
   color: rgba(0, 0, 0, 0.169);
   font-weight: bold;
   text-transform: uppercase;
@@ -590,7 +701,7 @@ input[type='radio'].visually-hidden {
 }
 
 .lead-singer-item:not(:last-child) {
-  margin-bottom: 5.4rem;
+  padding-bottom: 5.4rem;
 }
 
 .lead-singer-album::before {
