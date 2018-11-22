@@ -161,7 +161,8 @@ input[type='radio'].visually-hidden {
   display: inline-block;
   text-align: center;
   position: relative;
-  font-size: 2.6rem;
+  font-size: 3rem;
+
   /* width: max-content; */
   margin: 0 auto;
   text-transform: uppercase;
@@ -192,6 +193,7 @@ input[type='radio'].visually-hidden {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
   letter-spacing: 0.1rem;
+  font-size: 1rem;
 }
 
 .disco-list {
@@ -270,10 +272,12 @@ input[type='radio'].visually-hidden {
   background: url(../img/concert.png) center bottom no-repeat;
   background-size: cover;
   margin-bottom: 10rem;
+  padding: 5%;
 }
 
 .concert-tours-head {
   margin-bottom: 15rem;
+  text-align: center;
 }
 
 .concert-tours-title {
@@ -326,6 +330,7 @@ input[type='radio'].visually-hidden {
 
 .latter-compositions-head {
   margin-bottom: 5rem;
+  text-align: center;
 }
 
 .latter-compositions-title {
@@ -529,12 +534,12 @@ input[type='radio'].visually-hidden {
   position: relative;
 }
 
-.digital_one::after{
+.digital_one::after {
   display: block;
   content: '01';
   position: absolute;
-    bottom: -13%;
-  right:  -24%;
+  bottom: -13%;
+  right: -24%;
   transform: translate(-50%, -50%);
   background-color: transparent;
   height: 13.6rem;
@@ -548,12 +553,12 @@ input[type='radio'].visually-hidden {
   text-align: center;
 }
 
- .digital_two::after{
+.digital_two::after {
   display: block;
-  content: "02";
+  content: '02';
   position: absolute;
   bottom: -13%;
-  right:  -24%;
+  right: -24%;
   transform: translate(-50%, -50%);
   background-color: transparent;
   height: 13.6rem;
@@ -567,12 +572,12 @@ input[type='radio'].visually-hidden {
   text-align: center;
 }
 
- .digital_two::after{
+.digital_two::after {
   display: block;
-  content: "02";
+  content: '02';
   position: absolute;
   bottom: -13%;
-  right:  -24%;
+  right: -24%;
   transform: translate(-50%, -50%);
   background-color: transparent;
   height: 13.6rem;
@@ -586,12 +591,12 @@ input[type='radio'].visually-hidden {
   text-align: center;
 }
 
- .digital_three::after{
+.digital_three::after {
   display: block;
-  content: "03";
+  content: '03';
   position: absolute;
   bottom: -13%;
-  right:  -24%;
+  right: -24%;
   transform: translate(-50%, -50%);
   background-color: transparent;
   height: 13.6rem;
@@ -605,12 +610,12 @@ input[type='radio'].visually-hidden {
   text-align: center;
 }
 
-.digital_four::after{
+.digital_four::after {
   display: block;
-  content: "04";
+  content: '04';
   position: absolute;
   bottom: -13%;
-  right:  -24%;
+  right: -24%;
   transform: translate(-50%, -50%);
   background-color: transparent;
   height: 13.6rem;
@@ -624,12 +629,12 @@ input[type='radio'].visually-hidden {
   text-align: center;
 }
 
-.digital_five::after{
+.digital_five::after {
   display: block;
-  content: "05";
+  content: '05';
   position: absolute;
   bottom: -13%;
-  right:  -24%;
+  right: -24%;
   transform: translate(-50%, -50%);
   background-color: transparent;
   height: 13.6rem;
@@ -643,9 +648,9 @@ input[type='radio'].visually-hidden {
   text-align: center;
 }
 
-.digital_six::after{
+.digital_six::after {
   display: block;
-  content: "06";
+  content: '06';
   position: absolute;
   bottom: -15%;
   right: -16%;
@@ -665,8 +670,8 @@ input[type='radio'].visually-hidden {
 .lead-singer-wrapper {
   position: absolute;
   top: 7%;
-  /* left: 12%; */
   width: 30.8rem;
+  padding-left: 5%;
 }
 
 .lead-singer-date {
@@ -700,7 +705,11 @@ input[type='radio'].visually-hidden {
   text-transform: none;
 }
 
-.lead-singer-item:not(:last-child) {
+/* .lead-singer-item:not(:last-child) {
+  padding-bottom: 5.4rem;
+} */
+
+.lead-singer-item {
   padding-bottom: 5.4rem;
 }
 
@@ -725,32 +734,14 @@ input[type='radio'].visually-hidden {
 .upcoming-head {
   margin: 0 auto;
   padding: 0;
-  padding-right: 0.5rem;
-  margin-left: 8.2rem;
+  padding-left: 5%;
   font-size: 1.5rem;
   line-height: 1.618;
-  max-width: 54.5rem;
 }
 
 .upcoming-title {
   font-size: 3.5rem;
   color: rgb(66, 113, 126);
-  text-transform: uppercase;
-  position: relative;
-  line-height: 1.174;
-  padding-top: 4rem;
-  letter-spacing: 0.6rem;
-  padding-bottom: 10rem;
-}
-
-.upcoming-title:before {
-  content: '';
-  position: absolute;
-  top: 35%;
-  left: -3%;
-  height: 0.1rem;
-  max-width: 50.4rem;
-  background-color: #000002;
 }
 
 .upcoming-item {
@@ -837,6 +828,7 @@ input[type='radio'].visually-hidden {
   background: url(../img/history.jpg) center bottom no-repeat;
   background-size: cover;
   width: 100%;
+  text-align: center;
 }
 
 .history-title {
@@ -846,7 +838,7 @@ input[type='radio'].visually-hidden {
   letter-spacing: 0.6rem;
   line-height: 1.174;
   text-align: center;
-  padding-bottom: 3.5rem;
+  margin-bottom: 3.5rem;
 }
 
 .history-text {
@@ -867,7 +859,6 @@ input[type='radio'].visually-hidden {
   color: rgb(122, 128, 131);
   font-size: 2.6rem;
   justify-content: space-between;
-  /* padding: 0 0.5rem 0.5rem 3.5rem; */
   margin-bottom: 2rem;
 }
 
@@ -875,6 +866,7 @@ input[type='radio'].visually-hidden {
   width: 22rem;
   margin: 0 auto;
   text-align: center;
+  font-size: 1.5rem;
   color: rgb(122, 128, 131);
   font-weight: 700;
   padding-bottom: 61rem;
