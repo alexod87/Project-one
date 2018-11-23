@@ -16,6 +16,15 @@
     url('../fonts/open-sans-v15-latin-700.woff2') format('woff2'),
     url('../fonts/open-sans-v15-latin-700.woff') format('woff');
 }
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v15-latin-regular.eot');
+  src: local('Open Sans Bold'), local('OpenSans-Bold'),
+    url('../fonts/open-sans-v15-latin-regular.woff2') format('woff2'),
+    url('../fonts/open-sans-v15-latin-regular.woff') format('woff');
+}
 
 html {
   box-sizing: border-box;
@@ -724,9 +733,9 @@ input[type='radio'].visually-hidden {
 
 .upcoming-head {
   margin: 0 auto;
-  padding: 0;
-  padding-right: 0.5rem;
-  margin-left: 8.2rem;
+  padding: 1rem;
+  /* padding-right: 0.5rem; */
+  /* margin-left: 1.2rem; */
   font-size: 1.5rem;
   line-height: 1.618;
   max-width: 54.5rem;
@@ -834,9 +843,11 @@ input[type='radio'].visually-hidden {
 
 .history {
   margin: 0 auto;
+  padding: 1rem;
   background: url(../img/history.jpg) center bottom no-repeat;
   background-size: cover;
   width: 100%;
+  text-align: center;
 }
 
 .history-title {
@@ -858,7 +869,7 @@ input[type='radio'].visually-hidden {
   text-align: center;
   display: inline-block;
   width: 100%;
-  padding-bottom: 10rem;
+  padding-bottom: 4.8rem;
 }
 
 .history-list {
@@ -884,12 +895,13 @@ input[type='radio'].visually-hidden {
 
 .contact-section {
   margin: 0 auto;
+  padding: 1rem;
   padding-top: 8rem;
-  padding-bottom: 0.5rem;
   background: url(../img/contact.jpg) center no-repeat;
   background-size: cover;
   padding-bottom: 50rem;
   width: 100%;
+  /* text-align: center; */
 }
 
 .contact-head {
@@ -899,33 +911,34 @@ input[type='radio'].visually-hidden {
 }
 
 .contact-title {
+  position: relative;
   margin-bottom: 0.5rem;
   font-size: 5rem;
-  color: rgb(67, 67, 67);
+  color: rgb(69, 69, 69);
   text-transform: uppercase;
   letter-spacing: 0.6rem;
-  color: rgb(122, 128, 131);
   line-height: 1.174;
   text-align: left;
-  position: relative;
 }
 
 .contact-title:before {
+  display: block;
   content: '';
   position: absolute;
   top: 50%;
-  left: 51%;
+  left: 50%;
   transform: translate(-50%, -50%);
   height: 1px;
-  max-width: 50rem;
-  background-color: black;
+  width: 100%;
+  background-color: #000002;
 }
 
 .contact-text {
-  font-size: 1.4rem;
   font-family: 'Open Sans';
+  font-size: 1.5rem;
+  font-weight: 300;
   color: rgb(121, 130, 133);
-  line-height: 3.571;
+  line-height: 2.4;
   text-align: left;
 }
 
@@ -937,35 +950,41 @@ input[type='radio'].visually-hidden {
 }
 
 .contact-us-div {
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 .contact-us-form {
-  margin: 0 70rem;
+  flex-grow: 3;
+  margin: 0 1rem;
   max-width: 38.4rem;
   position: relative;
 }
 
 .contact-us-form:after {
   content: '';
-  width: 0px;
   height: 19rem;
   position: absolute;
-  border: 1px solid black;
   top: 3rem;
-  left: 51rem;
+  left: 25rem;
 }
 
 .group {
   position: relative;
+  display: block;
   margin-bottom: 4rem;
-  max-width: 38rem;
+  /* max-width: 20rem; */
 }
 
 .icons-form {
-  position: absolute;
-  top: 3rem;
-  left: 124rem;
+  display: inline-block;
+  padding-top: 2.4rem;
+}
+
+.icons-form-list {
+  padding: 0 0.6rem 1rem 1rem;
+  border-left: 0.05rem solid black;
 }
 
 .icons-form-facebook {
@@ -986,12 +1005,12 @@ input[type='radio'].visually-hidden {
 }
 
 input {
-  max-width: 38rem;
+  display: block;
+  max-width: 20rem;
   font-size: 1.6rem;
   padding: 1rem;
-  display: block;
   border: none;
-  border-bottom: 0.1rem solid #ccc;
+  border-bottom: 0.1rem solid #000;
 }
 
 input:focus {
@@ -1062,11 +1081,12 @@ button {
   font-family: 'OpenSans';
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 1.214;
+  line-height: 2.4;
   text-decoration: none;
   border: 0;
   outline: none;
-  background-color: none;
+  background: none;
+  color: #000000;
 }
 
 button:hover,
