@@ -956,7 +956,7 @@ input[type='radio'].visually-hidden {
 }
 
 .contact-us-form {
-  flex-grow: 3;
+  /* flex-grow: 3; */
   margin: 0 1rem;
   max-width: 38.4rem;
   position: relative;
