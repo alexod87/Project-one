@@ -362,7 +362,6 @@ input[type='radio'].visually-hidden {
 }
 
 .latter-compositions-item {
-  background-color: #f5f6f6;
   padding-top: 3.5rem;
 }
 
@@ -371,12 +370,19 @@ input[type='radio'].visually-hidden {
 }
 
 .latter-compositions-wrapper {
-  width: 90%;
-  margin-bottom: 3.6rem;
-  margin-left: 5%;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1rem;
+  padding-bottom: 5rem;
   font-size: 1.5rem;
   font-family: 'Open Sans';
+  background-color: #f5f6f6;
   line-height: 1.618;
+}
+
+.letter-img {
+  display: block;
+  margin: 0 auto;
 }
 
 .latter-compositions-album {
@@ -976,7 +982,7 @@ input:focus ~ .bar:after {
 button {
   display: block;
   font-size: 2rem;
-  font-family: 'OpenSans';
+  font-family: 'OpenSans' sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 2.4;
@@ -992,4 +998,7 @@ button:focus {
   background: rgba(204, 169, 169, 0.2);
   cursor: pointer;
   color: #2a8127;
+}
+
+@media (min-width: 76.8rem) {
 }
