@@ -1063,3 +1063,46 @@ button:focus {
     padding-bottom: 3.7rem;
   }
 }
+
+@media (min-width: 1200px) {
+  .flex {
+    display: flex;
+  }
+
+  .column {
+    flex-direction: column;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .wrap {
+    /* flex-wrap: wrap; */
+  }
+
+  .end {
+    align-items: flex-end;
+  }
+
+  .disco-list-item-div {
+    width: 500px;
+  }
+
+  .play {
+    margin: 0;
+  }
+
+  .lead-singer-item {
+    margin-right: 20px;
+    margin-bottom: 25px;
+  }
+
+  .lead-singer-item:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  .lead-singer-item:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+  }
+}
