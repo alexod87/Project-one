@@ -167,13 +167,14 @@ input[type='radio'].visually-hidden {
 }
 
 .title-h2 {
-  display: inline-block;
+  display: table;
   text-align: center;
   position: relative;
   font-size: 2.6rem;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 0.5rem;
+  font-family: 'M';
 }
 
 .title-h2::before {
@@ -208,6 +209,7 @@ input[type='radio'].visually-hidden {
 }
 
 .disco-list-item {
+  text-align: left;
   margin-bottom: 7rem;
 }
 
@@ -219,13 +221,14 @@ input[type='radio'].visually-hidden {
   display: block;
   content: '';
   height: 0.1rem;
-  width: 80%;
+  width: 100%;
   margin: 1rem auto 0.5rem auto;
   background-color: #000002;
 }
 
 .pre-title {
   margin: 0;
+  text-align: left;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -576,6 +579,7 @@ input[type='radio'].visually-hidden {
   text-transform: uppercase;
   text-align: center;
 }
+
 .digital_one::after {
   content: '01';
 }
@@ -602,6 +606,7 @@ input[type='radio'].visually-hidden {
 
 .lead-singer-wrapper {
   padding-right: 1.5rem;
+
 }
 
 .lead-singer-date {
