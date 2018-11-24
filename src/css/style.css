@@ -167,14 +167,14 @@ input[type='radio'].visually-hidden {
 }
 
 .title-h2 {
-  display: table;
+  display: inline-block;
   text-align: center;
   position: relative;
   font-size: 2.6rem;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 0.5rem;
-  font-family: 'M';
+  font-family: 'Dosis';
 }
 
 .title-h2::before {
@@ -606,7 +606,6 @@ input[type='radio'].visually-hidden {
 
 .lead-singer-wrapper {
   padding-right: 1.5rem;
-
 }
 
 .lead-singer-date {
