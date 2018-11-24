@@ -153,8 +153,8 @@ input[type='radio'].visually-hidden {
   width: 100%;
   height: 30%;
   display: inline-block;
-  top: 40%;
-  left: 60%;
+  top: 49%;
+  left: 49%;
   transform: translate(-50%, -50%);
   background: url(../img/logo.png) center no-repeat;
   background-size: contain;
@@ -1119,5 +1119,46 @@ button:focus {
 
   .lead-singer-wrapper {
     width: 36rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+   .column {
+    flex-direction: column;
+  }
+  
+   .reverse {
+    flex-direction: row-reverse;
+  }
+  
+   .wrap {
+    /* flex-wrap: wrap; */
+  }
+  
+   .end {
+    align-items: flex-end;
+  }
+  
+   .disco-list-item-div {
+    width: 500px;
+  }
+  
+   .play {
+    margin: 0;
+  }
+  
+   .lead-singer-item {
+    margin-right: 20px;
+    margin-bottom: 25px;
+  }
+  
+   .lead-singer-item:nth-child(3n) {
+    margin-right: 0;
+  }
+  
+   .lead-singer-item:nth-last-child(-n + 3) {
+    margin-bottom: 0;
   }
 }
