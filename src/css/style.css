@@ -262,7 +262,7 @@ input[type='radio'].visually-hidden {
   height: 5.6rem;
   text-transform: uppercase;
   font-size: 1.5rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.618;
   margin: 0 auto;
 }
@@ -343,6 +343,7 @@ input[type='radio'].visually-hidden {
 
 .latter-compositions-head {
   margin-bottom: 5rem;
+  text-align: center;
 }
 
 .latter-compositions-title {
@@ -351,7 +352,7 @@ input[type='radio'].visually-hidden {
 
 .latter-compositions-about {
   text-align: center;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
   color: rgb(122, 128, 131);
   line-height: 1.618;
@@ -375,7 +376,7 @@ input[type='radio'].visually-hidden {
   margin-bottom: 3.6rem;
   margin-left: 5%;
   font-size: 1.5rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.618;
 }
 
@@ -556,21 +557,27 @@ input[type='radio'].visually-hidden {
   background-position: right;
   background-repeat: no-repeat;
 }
+
 .digital_one {
   background-image: url(../img/newtrack01.jpg);
 }
+
 .digital_two {
   background-image: url(../img/newtrack02.jpg);
 }
+
 .digital_three {
   background-image: url(../img/newtrack03.jpg);
 }
+
 .digital_four {
   background-image: url(../img/newtrack04.jpg);
 }
+
 .digital_five {
   background-image: url(../img/newtrack05.jpg);
 }
+
 .digital_six {
   background-image: url(../img/newtrack06.jpg);
 }
@@ -581,7 +588,7 @@ input[type='radio'].visually-hidden {
   right: -15%;
   transform: translate(-50%, -50%);
   font-size: 9rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   color: rgba(0, 0, 0, 0.169);
   font-weight: bold;
   text-transform: uppercase;
@@ -641,7 +648,7 @@ input[type='radio'].visually-hidden {
 
 .lead-singer-album-text {
   font-size: 1.5rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   color: rgb(122, 128, 131);
   line-height: 1.618;
   text-transform: none;
@@ -780,12 +787,12 @@ input[type='radio'].visually-hidden {
 .contact-title {
   display: block;
   margin-bottom: 0.5rem;
-  text-align: left;
+  text-align-last: left;
 }
 
 .history-text {
   font-size: 1.5rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.2rem;
   color: rgb(122, 128, 131);
   text-align: center;
@@ -831,17 +838,16 @@ input[type='radio'].visually-hidden {
 }
 
 .contact-text {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
   font-weight: 300;
   color: rgb(121, 130, 133);
   line-height: 2.4;
-  text-align: left;
 }
 
 .contact-tel {
   font-size: 1.4rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   color: rgb(121, 130, 133);
   line-height: 3.571;
 }
@@ -850,7 +856,7 @@ input[type='radio'].visually-hidden {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  margin: 0 auto;
+  justify-content: center;
 }
 
 .contact-us-form {
@@ -872,7 +878,6 @@ input[type='radio'].visually-hidden {
   position: relative;
   display: block;
   margin-bottom: 4rem;
-  /* max-width: 20rem; */
 }
 
 .icons-form {
@@ -919,7 +924,7 @@ input:focus {
 
 label {
   font-size: 1.4rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   color: rgb(121, 130, 133);
   line-height: 1.734;
   position: absolute;
@@ -976,7 +981,7 @@ input:focus ~ .bar:after {
 button {
   display: block;
   font-size: 2rem;
-  font-family: 'OpenSans';
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 2.4;
