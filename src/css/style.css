@@ -81,7 +81,6 @@ input[type='radio'].visually-hidden {
 
 .container {
   width: 100%;
-  max-width: 117rem;
   margin: 0 auto;
   padding: 0 0.5rem;
 }
@@ -90,7 +89,7 @@ input[type='radio'].visually-hidden {
 
 .header-main {
   position: relative;
-  background: url(../img/header.png) 45% 50% no-repeat;
+  background: url(../img/header.png) center no-repeat;
   background-size: cover;
   width: 100%;
   margin: 0 auto;
@@ -292,15 +291,15 @@ input[type='radio'].visually-hidden {
   text-align: center;
   color: #7a8083;
 }
+
 .concert-tours_bgr {
   margin: 0 auto;
-  background: url(../img/concert.png) 60% bottom no-repeat;
+  background: url(../img/concert.png) center center no-repeat;
   background-size: cover;
-  max-width: 75rem;
   padding-top: 25rem;
 }
+
 .concert-tours-head {
-  /* margin-bottom: 10rem; */
   padding: 1rem;
 }
 
@@ -313,6 +312,7 @@ input[type='radio'].visually-hidden {
   color: #000;
   margin-bottom: 2rem;
 }
+
 .concert-tours-about {
   font-family: 'Open Sans', sans-serif;
   line-height: 2;
@@ -323,18 +323,21 @@ input[type='radio'].visually-hidden {
 
 .half-container {
   text-align: left;
-  max-width: 39.5rem;
+  max-width: 70%;
   padding: 2rem 0 1.5rem 5rem;
-  /* padding-bottom: 5rem;
-  padding-left: 1.5rem; */
+  padding-bottom: 5rem;
+  padding-left: 1.5rem;
 }
+
 .concert-tours .article-text {
   color: #7a8083;
 }
+
 .concert-tours-smoke {
   margin-bottom: 8.5rem;
   color: #000;
 }
+
 .buy-online {
   display: block;
   width: 20rem;
@@ -371,6 +374,7 @@ input[type='radio'].visually-hidden {
   font-size: 1.5rem;
   font-family: 'Open Sans', sans-serif;
 }
+
 .latter-compositions-title {
   margin-bottom: 4rem;
 }
@@ -803,6 +807,7 @@ input[type='radio'].visually-hidden {
   width: 100%;
   text-align: center;
 }
+
 .history-title {
   margin-bottom: 3.5rem;
 }
@@ -1027,30 +1032,94 @@ button:focus {
   color: #2a8127;
 }
 
-@media (min-width: 768px) {
-  /* HEADER */
-  .logo {
-    top: 40%;
-    left: 60%;
-  }
-  /* DICKOGRAPHY */
+@media (min-width: 750px) {
   .title-h2 {
     font-size: 5.5rem;
   }
+
   .discography-title {
     padding-left: 8rem;
     padding-right: 8rem;
   }
+
   .discography-about {
     width: 65rem;
     margin: 0 auto;
   }
+
   /* CONCERT_TOURS */
   .article-text__black {
     color: #000;
   }
+
+  /* LATTER */
+
   .latter-compositions-wrapper {
     padding: 3rem;
     padding-bottom: 3.7rem;
+  }
+}
+
+@media (min-width: 1170px) {
+  .nav-head {
+    background: rgba(0, 8, 12, 0.102);
+    height: 6.5rem;
+  }
+
+  .pre-menu {
+    visibility: hidden;
+  }
+
+  .header-menu {
+    visibility: visible;
+    display: flex;
+    width: 117rem;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  /* DISCOGRAPHY */
+  .disco-list-item {
+    max-width: 117rem;
+    display: flex;
+  }
+
+  .pre-title {
+    width: 50rem;
+  }
+
+  .play {
+    transform: translateX(-121%);
+  }
+
+  /* CONCERT TOURS */
+  .half-container {
+    width: 67rem;
+    margin-left: 20%;
+  }
+
+  /* LATTER */
+  .latter-compositions-item {
+    display: flex;
+    width: 117rem;
+    margin: 0 auto;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  /* LEAD */
+
+  .lead-singer-songs {
+    display: flex;
+    flex-direction: row;
+    max-width: 117rem;
+    flex-wrap: wrap;
+  }
+
+  .lead-singer-wrapper {
+    width: 36rem;
   }
 }
