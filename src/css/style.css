@@ -153,6 +153,7 @@ input[type='radio'].visually-hidden {
   position: absolute;
   width: 100%;
   height: 30%;
+  display: inline-block;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -206,6 +207,7 @@ input[type='radio'].visually-hidden {
   font-family: 'Open Sans', sans-serif;
   line-height: 2.4rem;
   letter-spacing: 0.1rem;
+  color: #7a8083;
 }
 
 .disco-list {
@@ -215,6 +217,8 @@ input[type='radio'].visually-hidden {
 }
 
 .disco-list-item {
+  max-width: 65.5rem;
+  margin: 0 auto;
   text-align: left;
   margin-bottom: 7rem;
 }
@@ -254,6 +258,7 @@ input[type='radio'].visually-hidden {
   font-size: 1.5rem;
   line-height: 1.9;
   margin-bottom: 6.6rem;
+  color: #acacac;
 }
 
 .play {
@@ -262,7 +267,7 @@ input[type='radio'].visually-hidden {
   height: 5.6rem;
   text-transform: uppercase;
   font-size: 1.5rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.618;
   margin: 0 auto;
 }
@@ -283,15 +288,20 @@ input[type='radio'].visually-hidden {
 /* CONCERT TOURS */
 
 .concert-tours {
-  background: url(../img/concert.png) center bottom no-repeat;
-  background-size: cover;
   margin-bottom: 10rem;
-  padding: 1.5rem;
   text-align: center;
+  color: #7a8083;
 }
-
+.concert-tours_bgr {
+  margin: 0 auto;
+  background: url(../img/concert.png) 60% bottom no-repeat;
+  background-size: cover;
+  max-width: 75rem;
+  padding-top: 25rem;
+}
 .concert-tours-head {
-  margin-bottom: 15rem;
+  /* margin-bottom: 10rem; */
+  padding: 1rem;
 }
 
 .concert-tours-title {
@@ -299,21 +309,32 @@ input[type='radio'].visually-hidden {
   margin-bottom: 4rem;
 }
 
+.concert-tours .article-title {
+  color: #000;
+  margin-bottom: 2rem;
+}
 .concert-tours-about {
   font-family: 'Open Sans', sans-serif;
   line-height: 2;
   letter-spacing: 1.2px;
+  max-width: 63rem;
+  margin: 0 auto;
 }
 
 .half-container {
-  width: 70%;
-  padding-bottom: 5rem;
+  text-align: left;
+  max-width: 39.5rem;
+  padding: 2rem 0 1.5rem 5rem;
+  /* padding-bottom: 5rem;
+  padding-left: 1.5rem; */
 }
-
+.concert-tours .article-text {
+  color: #7a8083;
+}
 .concert-tours-smoke {
   margin-bottom: 8.5rem;
+  color: #000;
 }
-
 .buy-online {
   display: block;
   width: 20rem;
@@ -343,16 +364,20 @@ input[type='radio'].visually-hidden {
 
 .latter-compositions-head {
   margin-bottom: 5rem;
+  text-align: center;
 }
 
+.latter-compositions-year {
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+}
 .latter-compositions-title {
   margin-bottom: 4rem;
 }
 
 .latter-compositions-about {
-  text-align: center;
-  font-family: 'Open Sans';
-  font-size: 1.5rem;
+  max-width: 65rem;
+  margin: 0 auto;
   color: rgb(122, 128, 131);
   line-height: 1.618;
 }
@@ -375,7 +400,7 @@ input[type='radio'].visually-hidden {
   padding: 1rem;
   padding-bottom: 5rem;
   font-size: 1.5rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans' sans-serif;
   background-color: #f5f6f6;
   line-height: 1.618;
 }
@@ -387,6 +412,7 @@ input[type='radio'].visually-hidden {
 
 .latter-compositions-album {
   font-size: 1.5rem;
+  font-weight: bold;
   text-transform: uppercase;
   padding-top: 0.7rem;
   padding-bottom: 4rem;
@@ -562,21 +588,27 @@ input[type='radio'].visually-hidden {
   background-position: right;
   background-repeat: no-repeat;
 }
+
 .digital_one {
   background-image: url(../img/newtrack01.jpg);
 }
+
 .digital_two {
   background-image: url(../img/newtrack02.jpg);
 }
+
 .digital_three {
   background-image: url(../img/newtrack03.jpg);
 }
+
 .digital_four {
   background-image: url(../img/newtrack04.jpg);
 }
+
 .digital_five {
   background-image: url(../img/newtrack05.jpg);
 }
+
 .digital_six {
   background-image: url(../img/newtrack06.jpg);
 }
@@ -587,7 +619,7 @@ input[type='radio'].visually-hidden {
   right: -15%;
   transform: translate(-50%, -50%);
   font-size: 9rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   color: rgba(0, 0, 0, 0.169);
   font-weight: bold;
   text-transform: uppercase;
@@ -647,7 +679,7 @@ input[type='radio'].visually-hidden {
 
 .lead-singer-album-text {
   font-size: 1.5rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   color: rgb(122, 128, 131);
   line-height: 1.618;
   text-transform: none;
@@ -766,13 +798,11 @@ input[type='radio'].visually-hidden {
 
 .history {
   margin: 0 auto;
-  padding: 1rem;
   background: url(../img/history.jpg) center bottom no-repeat;
   background-size: cover;
   width: 100%;
   text-align: center;
 }
-
 .history-title {
   margin-bottom: 3.5rem;
 }
@@ -786,17 +816,15 @@ input[type='radio'].visually-hidden {
 .contact-title {
   display: block;
   margin-bottom: 0.5rem;
-  text-align: left;
+  text-align-last: left;
 }
 
 .history-text {
   font-size: 1.5rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.2rem;
   color: rgb(122, 128, 131);
   text-align: center;
-  display: inline-block;
-  width: 100%;
   padding-bottom: 4.8rem;
 }
 
@@ -805,6 +833,7 @@ input[type='radio'].visually-hidden {
   text-transform: uppercase;
   color: rgb(122, 128, 131);
   font-size: 2.6rem;
+  padding: 0.5rem;
   justify-content: space-between;
   margin-bottom: 2rem;
 }
@@ -837,17 +866,16 @@ input[type='radio'].visually-hidden {
 }
 
 .contact-text {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
   font-weight: 300;
   color: rgb(121, 130, 133);
   line-height: 2.4;
-  text-align: left;
 }
 
 .contact-tel {
   font-size: 1.4rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   color: rgb(121, 130, 133);
   line-height: 3.571;
 }
@@ -856,7 +884,7 @@ input[type='radio'].visually-hidden {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  margin: 0 auto;
+  justify-content: center;
 }
 
 .contact-us-form {
@@ -878,7 +906,6 @@ input[type='radio'].visually-hidden {
   position: relative;
   display: block;
   margin-bottom: 4rem;
-  /* max-width: 20rem; */
 }
 
 .icons-form {
@@ -925,7 +952,7 @@ input:focus {
 
 label {
   font-size: 1.4rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   color: rgb(121, 130, 133);
   line-height: 1.734;
   position: absolute;
@@ -1000,5 +1027,30 @@ button:focus {
   color: #2a8127;
 }
 
-@media (min-width: 76.8rem) {
+@media (min-width: 768px) {
+  /* HEADER */
+  .logo {
+    top: 40%;
+    left: 60%;
+  }
+  /* DICKOGRAPHY */
+  .title-h2 {
+    font-size: 5.5rem;
+  }
+  .discography-title {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  .discography-about {
+    width: 65rem;
+    margin: 0 auto;
+  }
+  /* CONCERT_TOURS */
+  .article-text__black {
+    color: #000;
+  }
+  .latter-compositions-wrapper {
+    padding: 3rem;
+    padding-bottom: 3.7rem;
+  }
 }
