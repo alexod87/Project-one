@@ -450,15 +450,8 @@
           </div>
         </header>
         <ul class="lead-singer-songs container list">
-          <li class="lead-singer-item digital_one">
 
-            <img
-              class="lead-singer-image"
-              src="img/newtrack01.jpg"
-              alt=""
-              width="384"
-              height="422"
-            />
+          <li class="lead-singer-item digital_one digital_bgr lead_number">
             <div class="lead-singer-wrapper">
               <span class="lead-singer-date">03.04.2015</span>
               <p class="lead-singer-album">Chill Nation</p>
@@ -475,8 +468,7 @@
             </div>
           </li>
 
-          <li class="lead-singer-item digital_two">
-            <img src="img/newtrack02.jpg" alt="" width="384" height="422" />
+          <li class="lead-singer-item digital_two digital_bgr  lead_number">
             <div class="lead-singer-wrapper">
               <span class="lead-singer-date">01.03.2015</span>
               <p class="lead-singer-album">Chill Nation</p>
@@ -489,8 +481,7 @@
             </div>
           </li>
 
-          <li class="lead-singer-item digital_three">
-            <img src="img/newtrack03.jpg" alt="" width="384" height="422" />
+          <li class="lead-singer-item digital_three digital_bgr lead_number">
             <div class="lead-singer-wrapper">
               <span class="lead-singer-date">04.04.2015</span>
               <p class="lead-singer-album">Chill Nation</p>
@@ -503,8 +494,7 @@
             </div>
           </li>
 
-          <li class="lead-singer-item digital_four">
-            <img src="img/newtrack04.jpg" alt="" width="384" height="422" />
+          <li class="lead-singer-item digital_four digital_bgr lead_number">
             <div class="lead-singer-wrapper">
               <span class="lead-singer-date">01.07.2015</span>
               <p class="lead-singer-album">Chill Nation</p>
@@ -517,8 +507,7 @@
             </div>
           </li>
 
-          <li class="lead-singer-item digital_five">
-            <img src="img/newtrack05.jpg" alt="" width="384" height="422" />
+          <li class="lead-singer-item digital_five digital_bgr lead_number">
             <div class="lead-singer-wrapper">
               <span class="lead-singer-date">02.11.2015</span>
               <p class="lead-singer-album">Chill Nation</p>
@@ -532,8 +521,7 @@
             </div>
           </li>
 
-          <li class="lead-singer-item digital_six">
-            <img src="img/newtrack06.jpg" alt="" width="384" height="422" />
+          <li class="lead-singer-item digital_six digital_bgr lead_number">
             <div class="lead-singer-wrapper">
               <span class="lead-singer-date">06.09.2015</span>
               <p class="lead-singer-album">Chill Nation</p>
@@ -548,7 +536,8 @@
       </section>
       <section class="upcoming">
         <header class="upcoming-head">
-          <h2 class="upcoming-title">Upcoming Events</h2>
+          <h2 class="upcoming-title title-h2">Upcoming Events</h2>
+          <div>
           <h3 class="upcoming-item">Smoke + Mirrors Tour</h3>
           <p class="upcoming-adress">
             2-2-15 Hokukoryokuchi, Konohana Ward,<br />
@@ -566,12 +555,13 @@
             hands-on control over how the site actually gets put together.
           </p>
           <p class="upcoming-date-next">27.05.2015</p>
+          </div>
         </header>
       </section>
 
       <section class="history">
         <header class="history-head">
-          <h2 class="history-title">History</h2>
+          <h2 class="history-title title-h2">History</h2>
           <p class="history-text">
             In 2008, lead singer Dan Reynolds met drummer Andrew Tolman at<br />
             Brigham Young University where they were both students.Tolman
@@ -596,61 +586,62 @@
 
       <section class="contact-section">
         <header class="contact-head">
-          <h2 class="contact-title">Contact</h2>
+          <h2 class="contact-title title-h2">Contact</h2>
           <p class="contact-text">
             Canada Island, Division No. 23, Unorganized, MB, Canada
           </p>
           <p class="contact-tel">Tel. +1(778)288 5180</p>
+          <div class="contact-us-div">
+            <form class="contact-us-form" method="POST" id="user_form">
+              <div class="group">
+                <input type="text" id="name" required />
+                <span class="bar"></span> <label for="name">Name</label>
+              </div>
+              <div class="group">
+                <input type="email" id="email" required />
+                <span class="bar"></span> <label for="email">Email</label>
+              </div>
+              <div class="group">
+                <input type="text" id="message" required />
+                <span class="bar"></span> <label for="message">Message</label>
+              </div>
+              <!--
+                <textarea name="customer-message" placeholder="Your message *" required wrap="soft" form="user_request"></textarea>
+              -->
+              <button type="submit">Send</button>
+            </form>
+            <div class="icons-form">
+                <ul class="icons-form-list">
+                  <li class="icons-list-item">
+                    <svg class="icons-form-facebook">
+                      <use
+                        href="img/svg/SVG-sprite.svg#facebook-letter-logo"
+                        xlink:href="img/svg/SVG-sprite.svg#facebook-letter-logo"
+                      ></use>
+                    </svg>
+                  </li>
+                  <li class="icons-list-item">
+                    <svg class="icons-form-instagram">
+                      <use
+                        href="img/svg/SVG-sprite.svg#social-media"
+                        xlink:href="img/svg/SVG-sprite.svg#social-media"
+                      ></use>
+                    </svg>
+                  </li>
+                  <li class="icons-list-item">
+                    <svg class="icons-form-twitter">
+                      <use
+                        href="img/svg/SVG-sprite.svg#tweet"
+                        xlink:href="img/svg/SVG-sprite.svg#tweet"
+                      ></use>
+                    </svg>
+                  </li>
+                </ul>
+              </div>
+              </div>
         </header>
         <!-- --NEW FORM -->
-        <div class="contact-us-div">
-          <form class="contact-us-form" method="POST" id="user_form">
-            <div class="group">
-              <input type="text" id="name" required />
-              <span class="bar"></span> <label for="name">Name</label>
-            </div>
-            <div class="group">
-              <input type="email" id="email" required />
-              <span class="bar"></span> <label for="email">Email</label>
-            </div>
-            <div class="group">
-              <input type="text" id="message" required />
-              <span class="bar"></span> <label for="message">Message</label>
-            </div>
-            <!--
-              <textarea name="customer-message" placeholder="Your message *" required wrap="soft" form="user_request"></textarea>
-            -->
-            <button type="submit">Send</button>
-          </form>
-          <div class="icons-form">
-              <ul class="icons-form-list">
-                <li class="icons-list-item">
-                  <svg class="icons-form-facebook">
-                    <use
-                      href="img/svg/SVG-sprite.svg#facebook-letter-logo"
-                      xlink:href="img/svg/SVG-sprite.svg#facebook-letter-logo"
-                    ></use>
-                  </svg>
-                </li>
-                <li class="icons-list-item">
-                  <svg class="icons-form-instagram">
-                    <use
-                      href="img/svg/SVG-sprite.svg#social-media"
-                      xlink:href="img/svg/SVG-sprite.svg#social-media"
-                    ></use>
-                  </svg>
-                </li>
-                <li class="icons-list-item">
-                  <svg class="icons-form-twitter">
-                    <use
-                      href="img/svg/SVG-sprite.svg#tweet"
-                      xlink:href="img/svg/SVG-sprite.svg#tweet"
-                    ></use>
-                  </svg>
-                </li>
-              </ul>
-            </div>
-            </div>
+
         
 
         <!--
