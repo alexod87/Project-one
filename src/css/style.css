@@ -38,6 +38,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-size: 1.5rem;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -170,7 +174,7 @@ input[type='radio'].visually-hidden {
   display: inline-block;
   text-align: center;
   position: relative;
-  font-size: 2.6rem;
+  font-size: 4rem;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 0.5rem;
@@ -191,6 +195,7 @@ input[type='radio'].visually-hidden {
 }
 
 .discography-title {
+  font-size: 4rem;
   color: #896850;
   margin-bottom: 3.6rem;
 }
@@ -199,12 +204,13 @@ input[type='radio'].visually-hidden {
   padding: 0 1rem;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  line-height: 1.5;
+  line-height: 2.4rem;
   letter-spacing: 0.1rem;
 }
 
 .disco-list {
   margin-top: 10.4rem;
+  padding: 1.5rem;
   padding-bottom: 43rem;
 }
 
@@ -230,7 +236,6 @@ input[type='radio'].visually-hidden {
   margin: 0;
   text-align: left;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.5rem;
   text-transform: uppercase;
   margin-bottom: 3.8rem;
 }
@@ -281,6 +286,8 @@ input[type='radio'].visually-hidden {
   background: url(../img/concert.png) center bottom no-repeat;
   background-size: cover;
   margin-bottom: 10rem;
+  padding: 1.5rem;
+  text-align: center;
 }
 
 .concert-tours-head {
@@ -293,7 +300,6 @@ input[type='radio'].visually-hidden {
 }
 
 .concert-tours-about {
-  text-align: center;
   font-family: 'Open Sans', sans-serif;
   line-height: 2;
   letter-spacing: 1.2px;
@@ -463,6 +469,7 @@ input[type='radio'].visually-hidden {
   padding-top: 20rem;
   font-family: 'OpenSans';
   text-align: center;
+  padding: 1.5rem;
 }
 
 .slider-icons {
@@ -526,6 +533,7 @@ input[type='radio'].visually-hidden {
 .circle {
   width: 1rem;
   height: 1rem;
+  fill: #fff;
 }
 
 .lead-singer-songs {
@@ -545,7 +553,7 @@ input[type='radio'].visually-hidden {
 }
 
 .digital_bgr {
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
 }
 .digital_one {
@@ -639,10 +647,6 @@ input[type='radio'].visually-hidden {
   text-transform: none;
 }
 
-/* .lead-singer-item:not(:last-child) {
-  padding-bottom: 5.4rem;
-} */
-
 .lead-singer-album::before {
   display: block;
   content: '';
@@ -670,27 +674,9 @@ input[type='radio'].visually-hidden {
 }
 
 .upcoming-title {
-  display: inline-block;
-  font-size: 5.5rem;
+  line-height: 1.2;
   color: rgb(66, 113, 126);
-  line-height: 0.9;
   margin-bottom: 5rem;
-}
-
-.upcoming-title:before {
-  top: 25%;
-}
-
-.upcoming-title::after {
-  position: absolute;
-  display: inline-block;
-  content: '';
-  height: 0.1rem;
-  width: 100%;
-  background-color: #000002;
-  transform: translate(-50%, -50%);
-  top: 75%;
-  left: 50%;
 }
 
 .upcoming-item {
@@ -787,7 +773,7 @@ input[type='radio'].visually-hidden {
 
 .history-title,
 .contact-title {
-  font-size: 5.5rem;
+  font-size: 4rem;
   color: rgb(91, 92, 90);
 }
 
@@ -830,13 +816,12 @@ input[type='radio'].visually-hidden {
 
 .contact-section {
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1.5rem;
   padding-top: 8rem;
   background: url(../img/contact.jpg) center no-repeat;
   background-size: cover;
   padding-bottom: 50rem;
   width: 100%;
-  /* text-align: center; */
 }
 
 .contact-head {
@@ -844,28 +829,6 @@ input[type='radio'].visually-hidden {
   max-width: 50rem;
   margin: 0 auto;
 }
-
-/* .contact-title {
-  margin-bottom: 0.5rem;
-  font-size: 5rem;
-  color: rgb(69, 69, 69);
-  text-transform: uppercase;
-  letter-spacing: 0.6rem;
-  line-height: 1.174;
-  text-align: left;
-} */
-
-/* .contact-title:before {
-  display: block;
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 0.05rem;
-  width: 100%;
-  background-color: #000002;
-} */
 
 .contact-text {
   font-family: 'Open Sans';
