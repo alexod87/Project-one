@@ -153,8 +153,8 @@ input[type='radio'].visually-hidden {
   width: 100%;
   height: 30%;
   display: inline-block;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 60%;
   transform: translate(-50%, -50%);
   background: url(../img/logo.png) center no-repeat;
   background-size: contain;
@@ -1014,7 +1014,7 @@ input:focus ~ .bar:after {
 button {
   display: block;
   font-size: 2rem;
-  font-family: 'OpenSans' sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 2.4;
@@ -1038,8 +1038,7 @@ button:focus {
   }
 
   .discography-title {
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding: 0 8rem;
   }
 
   .discography-about {
@@ -1051,7 +1050,6 @@ button:focus {
   .article-text__black {
     color: #000;
   }
-
   /* LATTER */
 
   .latter-compositions-wrapper {
