@@ -154,8 +154,8 @@ input[type='radio'].visually-hidden {
   width: 100%;
   height: 30%;
   display: inline-block;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 60%;
   transform: translate(-50%, -50%);
   background: url(../img/logo.png) center no-repeat;
   background-size: contain;
@@ -292,6 +292,7 @@ input[type='radio'].visually-hidden {
   text-align: center;
   color: #7a8083;
 }
+
 .concert-tours_bgr {
   margin: 0 auto;
   background: url(../img/concert.png) 60% bottom no-repeat;
@@ -299,6 +300,7 @@ input[type='radio'].visually-hidden {
   max-width: 75rem;
   padding-top: 25rem;
 }
+
 .concert-tours-head {
   /* margin-bottom: 10rem; */
   padding: 1rem;
@@ -313,6 +315,7 @@ input[type='radio'].visually-hidden {
   color: #000;
   margin-bottom: 2rem;
 }
+
 .concert-tours-about {
   font-family: 'Open Sans', sans-serif;
   line-height: 2;
@@ -325,16 +328,20 @@ input[type='radio'].visually-hidden {
   text-align: left;
   max-width: 39.5rem;
   padding: 2rem 0 1.5rem 5rem;
+
   /* padding-bottom: 5rem;
   padding-left: 1.5rem; */
 }
+
 .concert-tours .article-text {
   color: #7a8083;
 }
+
 .concert-tours-smoke {
   margin-bottom: 8.5rem;
   color: #000;
 }
+
 .buy-online {
   display: block;
   width: 20rem;
@@ -371,6 +378,7 @@ input[type='radio'].visually-hidden {
   font-size: 1.5rem;
   font-family: 'Open Sans', sans-serif;
 }
+
 .latter-compositions-title {
   margin-bottom: 4rem;
 }
@@ -803,6 +811,7 @@ input[type='radio'].visually-hidden {
   width: 100%;
   text-align: center;
 }
+
 .history-title {
   margin-bottom: 3.5rem;
 }
@@ -1009,7 +1018,7 @@ input:focus ~ .bar:after {
 button {
   display: block;
   font-size: 2rem;
-  font-family: 'OpenSans' sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 2.4;
@@ -1027,28 +1036,28 @@ button:focus {
   color: #2a8127;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 750px) {
   /* HEADER */
-  .logo {
-    top: 40%;
-    left: 60%;
-  }
+
   /* DICKOGRAPHY */
   .title-h2 {
     font-size: 5.5rem;
   }
+
   .discography-title {
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding: 0 8rem;
   }
+
   .discography-about {
     width: 65rem;
     margin: 0 auto;
   }
+
   /* CONCERT_TOURS */
   .article-text__black {
     color: #000;
   }
+
   .latter-compositions-wrapper {
     padding: 3rem;
     padding-bottom: 3.7rem;
