@@ -165,8 +165,7 @@ input[type='radio'].visually-hidden {
 .discography {
   background: url(../img/discography.jpg) center bottom no-repeat;
   background-size: auto;
-  margin-top: 2rem;
-  margin-bottom: 10rem;
+  padding-top: 2rem;
   text-align: center;
 }
 
@@ -219,6 +218,9 @@ input[type='radio'].visually-hidden {
   max-width: 65.5rem;
   margin: 0 auto;
   text-align: left;
+}
+
+.disco-list-item:not(:last-child) {
   margin-bottom: 7rem;
 }
 
@@ -230,8 +232,8 @@ input[type='radio'].visually-hidden {
   display: block;
   content: '';
   height: 0.1rem;
-  width: 100%;
-  margin: 1rem auto 0.5rem auto;
+  width: 90%;
+  margin: 1rem auto 0.5rem 0;
   background-color: #000002;
 }
 
@@ -287,14 +289,15 @@ input[type='radio'].visually-hidden {
 /* CONCERT TOURS */
 
 .concert-tours {
-  margin-bottom: 10rem;
   text-align: center;
   color: #7a8083;
+  background: url(../img/concert.png) center center no-repeat;
+  padding-top: 10rem;
+  padding-bottom: 20rem;
 }
 
 .concert-tours_bgr {
   margin: 0 auto;
-  background: url(../img/concert.png) center center no-repeat;
   background-size: cover;
   padding-top: 25rem;
 }
@@ -362,7 +365,7 @@ input[type='radio'].visually-hidden {
 /* LATTER COMPOSITIONS */
 
 .latter-compositions {
-  margin-bottom: 12rem;
+  padding-top: 10rem;
 }
 
 .latter-compositions-head {
@@ -489,7 +492,7 @@ input[type='radio'].visually-hidden {
 /*-- LEAD SINGER --*/
 
 .lead-singer {
-  margin-bottom: 8rem;
+  padding-top: 12rem;
 }
 
 .lead-singer-slider {
@@ -703,8 +706,8 @@ input[type='radio'].visually-hidden {
   background: url(../img/upcoming.jpg) center no-repeat;
   background-size: cover;
   width: 100%;
-  margin-bottom: 7.9rem;
   padding: 1.5rem;
+  padding-top: 8rem;
 }
 
 .upcoming-head {
@@ -806,6 +809,7 @@ input[type='radio'].visually-hidden {
   background-size: cover;
   width: 100%;
   text-align: center;
+  padding-top: 8rem;
 }
 
 .history-title {
@@ -866,7 +870,7 @@ input[type='radio'].visually-hidden {
 
 .contact-head {
   padding-bottom: 3.2rem;
-  max-width: 50rem;
+  max-width: 70rem;
   margin: 0 auto;
 }
 
@@ -895,7 +899,7 @@ input[type='radio'].visually-hidden {
 .contact-us-form {
   flex-grow: 3;
   margin: 0 1rem;
-  max-width: 38.4rem;
+  max-width: 58.4rem;
   position: relative;
 }
 
@@ -981,7 +985,7 @@ input:valid ~ label {
 .bar {
   position: relative;
   display: block;
-  max-width: 38rem;
+  max-width: 58rem;
 }
 
 .bar:before,
